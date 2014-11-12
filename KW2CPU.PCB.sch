@@ -2014,7 +2014,7 @@ Based on the following sources :
 <busses>
 </busses>
 <nets>
-<net name="CLKM1" class="0">
+<net name="XTAL_32M" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P$3"/>
 <wire x1="-99.06" y1="30.48" x2="-91.44" y2="30.48" width="0.1524" layer="91"/>
@@ -2194,7 +2194,7 @@ Based on the following sources :
 <pinref part="U$12" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="CLKM2" class="0">
+<net name="EXTAL_32M" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P$1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -2213,7 +2213,7 @@ Based on the following sources :
 <junction x="-127" y="22.86"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="TAMPER/!RTC_WAKEUP" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="TAMPER0/!RTC_WAKEUP"/>
 <wire x1="-66.04" y1="12.7" x2="-83.82" y2="12.7" width="0.1524" layer="91"/>
@@ -2239,7 +2239,7 @@ Based on the following sources :
 <wire x1="-121.92" y1="-76.2" x2="-121.92" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="PTC4/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTC4/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT"/>
 <wire x1="-76.2" y1="-33.02" x2="-66.04" y2="-33.02" width="0.1524" layer="91"/>
@@ -2253,7 +2253,7 @@ Based on the following sources :
 <wire x1="-76.2" y1="-33.02" x2="-76.2" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="PTC5/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTC5/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT"/>
 <wire x1="-73.66" y1="-35.56" x2="-66.04" y2="-35.56" width="0.1524" layer="91"/>
@@ -2268,7 +2268,7 @@ Based on the following sources :
 <wire x1="-73.66" y1="-45.72" x2="-73.66" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="PTC6/LLWU_P10/CMP0_IN0/SPI0_SOUT/PDB0_EXTRG/I2S0_RX_BCLK/I2S0_MCLK" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTC6/LLWU_P10/CMP0_IN0/SPI0_SOUT/PDB0_EXTRG/I2S0_RX_BCLK/I2S0_MCLK"/>
 <wire x1="-71.12" y1="-38.1" x2="-66.04" y2="-38.1" width="0.1524" layer="91"/>
@@ -2282,7 +2282,7 @@ Based on the following sources :
 <wire x1="-71.12" y1="-38.1" x2="-71.12" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="PTC7/CMP0_IN1/SPI0_SIN/USB_SOF_OUT/I2S0_RX_FS" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTC7/CMP0_IN1/SPI0_SIN/USB_SOF_OUT/I2S0_RX_FS"/>
 <wire x1="-68.58" y1="-40.64" x2="-66.04" y2="-40.64" width="0.1524" layer="91"/>
@@ -2296,7 +2296,7 @@ Based on the following sources :
 <wire x1="-68.58" y1="-40.64" x2="-68.58" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="RF_OUTP" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="RF_OUTP"/>
 <pinref part="L$5" gate="G$1" pin="1"/>
@@ -2306,7 +2306,7 @@ Based on the following sources :
 <wire x1="217.424" y1="-24.384" x2="218.694" y2="-24.384" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="RF_OUTN" class="0">
 <segment>
 <pinref part="L$4" gate="G$1" pin="1"/>
 <wire x1="218.694" y1="-6.604" x2="198.12" y2="-6.604" width="0.1524" layer="91"/>
@@ -2339,7 +2339,7 @@ Based on the following sources :
 <wire x1="244.348" y1="-24.384" x2="243.84" y2="-24.384" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="RFN" class="0">
 <segment>
 <pinref part="R$7" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="-12.7" x2="299.72" y2="-12.7" width="0.1524" layer="91"/>
@@ -2347,14 +2347,14 @@ Based on the following sources :
 <wire x1="299.72" y1="-12.7" x2="314.96" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="RFP" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="RFP"/>
 <pinref part="R$8" gate="G$1" pin="2"/>
 <wire x1="314.96" y1="-17.78" x2="271.78" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="VCC_DIG_PA" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="VCC_DIG"/>
 <wire x1="330.2" y1="-33.02" x2="330.2" y2="-50.8" width="0.1524" layer="91"/>
@@ -2369,7 +2369,7 @@ Based on the following sources :
 <pinref part="L$11" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="ANT1" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="ANT1"/>
 <pinref part="C$13" gate="G$1" pin="1"/>
@@ -2379,7 +2379,7 @@ Based on the following sources :
 <junction x="393.7" y="-12.7"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="F_ANT" class="0">
 <segment>
 <pinref part="L$14" gate="G$1" pin="2"/>
 <pinref part="C$15" gate="G$1" pin="1"/>
@@ -2389,7 +2389,7 @@ Based on the following sources :
 <wire x1="393.7" y1="-58.42" x2="381" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="ANT2" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="ANT2"/>
 <pinref part="C$18" gate="G$1" pin="1"/>
@@ -2398,7 +2398,7 @@ Based on the following sources :
 <wire x1="393.7" y1="-2.54" x2="393.7" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="MMCX_ANT" class="0">
 <segment>
 <pinref part="L$17" gate="G$1" pin="1"/>
 <pinref part="C$16" gate="G$1" pin="1"/>
@@ -2406,7 +2406,7 @@ Based on the following sources :
 <wire x1="393.7" y1="25.4" x2="393.7" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="ANT_A" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="ANT_A"/>
 <wire x1="66.04" y1="48.26" x2="350.52" y2="48.26" width="0.1524" layer="91"/>
@@ -2414,7 +2414,7 @@ Based on the following sources :
 <wire x1="350.52" y1="40.64" x2="350.52" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="ANTSEL" class="0">
 <segment>
 <pinref part="R$19" gate="G$1" pin="1"/>
 <pinref part="U$3" gate="G$1" pin="ANTSEL"/>
@@ -2423,7 +2423,7 @@ Based on the following sources :
 <wire x1="350.52" y1="30.48" x2="355.6" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$31" class="0">
+<net name="TX_SWITCH" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="C_RX_TX"/>
 <wire x1="330.2" y1="22.86" x2="330.2" y2="17.78" width="0.1524" layer="91"/>
@@ -2440,7 +2440,7 @@ Based on the following sources :
 <wire x1="317.5" y1="25.4" x2="317.5" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="RX_SWITCH" class="0">
 <segment>
 <pinref part="C$24" gate="G$1" pin="1"/>
 <pinref part="R$23" gate="G$1" pin="1"/>
@@ -2457,7 +2457,7 @@ Based on the following sources :
 <wire x1="-129.54" y1="0" x2="-66.04" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="EXTAL32" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="1"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -2469,7 +2469,7 @@ Based on the following sources :
 <wire x1="-116.84" y1="55.88" x2="-111.76" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$32" class="0">
+<net name="XTAL32" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="2"/>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -2478,7 +2478,7 @@ Based on the following sources :
 <wire x1="-66.04" y1="55.88" x2="-66.04" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$34" class="0">
+<net name="PTD1/ADC0_SE5B/SPI0_SCK/!UART2_CTS" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTD1/ADC0_SE5B/SPI0_SCK/!UART2_CTS"/>
 <wire x1="66.04" y1="38.1" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
@@ -2487,7 +2487,7 @@ Based on the following sources :
 <wire x1="210.82" y1="38.1" x2="210.82" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="PTD2/LLWU_P13/SPI0_SOUT/UART2_RX/I2C0_SDA/GPIO4_BSM_DATA" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTD2/LLWU_P13/SPI0_SOUT/UART2_RX/I2C0_SDA/GPIO4_BSM_DATA"/>
 <wire x1="66.04" y1="35.56" x2="208.28" y2="35.56" width="0.1524" layer="91"/>
@@ -2496,7 +2496,7 @@ Based on the following sources :
 <wire x1="213.36" y1="35.56" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="PTD3/SPI0_SIN/UART2_TX/I2C0_SCL/GPIO5_BSM_CLK" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTD3/SPI0_SIN/UART2_TX/I2C0_SCL/GPIO5_BSM_CLK"/>
 <wire x1="66.04" y1="33.02" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
@@ -2505,7 +2505,7 @@ Based on the following sources :
 <wire x1="215.9" y1="33.02" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$36" class="0">
+<net name="PTD4/LLWU_P14/MADC0_SE21/SPI0_PCS1/!UART0_RTS!/FTM0_CH4/EWM_IN/GPIO_BSM_FRAME" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTD4/LLWU_P14/MADC0_SE21/SPI0_PCS1/!UART0_RTS!/FTM0_CH4/EWM_IN/GPIO_BSM_FRAME"/>
 <wire x1="66.04" y1="30.48" x2="213.36" y2="30.48" width="0.1524" layer="91"/>
@@ -2514,7 +2514,7 @@ Based on the following sources :
 <wire x1="218.44" y1="30.48" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$37" class="0">
+<net name="PTD5/ADC0_SE6B/SPI0_PCS2/!UART0_CTS!/!UART0_COL!/FTM0_CH5/!EWM_OUT" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTD5/ADC0_SE6B/SPI0_PCS2/!UART0_CTS!/!UART0_COL!/FTM0_CH5/!EWM_OUT"/>
 <wire x1="66.04" y1="27.94" x2="215.9" y2="27.94" width="0.1524" layer="91"/>
@@ -2523,7 +2523,7 @@ Based on the following sources :
 <wire x1="220.98" y1="27.94" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$38" class="0">
+<net name="PTD6/LLWU_P15/ADC0_SE7B/SPI0_PCS3/UART0_RX/FTM0_CH6/FTM0_FLT0" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTD6/LLWU_P15/ADC0_SE7B/SPI0_PCS3/UART0_RX/FTM0_CH6/FTM0_FLT0"/>
 <wire x1="66.04" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
@@ -2532,7 +2532,7 @@ Based on the following sources :
 <wire x1="223.52" y1="25.4" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$39" class="0">
+<net name="PTD7/MADC0_SE22/CMT_IRO/UART0_TX/FTM0_CH7/FTM0_FLT1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTD7/MADC0_SE22/CMT_IRO/UART0_TX/FTM0_CH7/FTM0_FLT1"/>
 <wire x1="66.04" y1="22.86" x2="220.98" y2="22.86" width="0.1524" layer="91"/>
@@ -2541,7 +2541,7 @@ Based on the following sources :
 <wire x1="226.06" y1="22.86" x2="226.06" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$40" class="0">
+<net name="PTE0/MADC0_SE10/SPI1_PCS1/UART1_TX/MTRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTE0/MADC0_SE10/SPI1_PCS1/UART1_TX/MTRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT"/>
 <wire x1="66.04" y1="15.24" x2="223.52" y2="15.24" width="0.1524" layer="91"/>
@@ -2559,7 +2559,7 @@ Based on the following sources :
 <wire x1="314.96" y1="106.68" x2="314.96" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="PTE1/LLWU_P0/MADC0_SE11/SPI1_SOUT/UART1_RX/MTRACE_D3/I2C1_SCL/SPI1_SIN" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTE1/LLWU_P0/MADC0_SE11/SPI1_SOUT/UART1_RX/MTRACE_D3/I2C1_SCL/SPI1_SIN"/>
 <wire x1="66.04" y1="12.7" x2="226.06" y2="12.7" width="0.1524" layer="91"/>
@@ -2575,7 +2575,7 @@ Based on the following sources :
 <pinref part="U$12" gate="G$1" pin="P$20"/>
 </segment>
 </net>
-<net name="N$42" class="0">
+<net name="PTE2/LLWU_P1/MADC0_DP1/SPI1_SCK/!UART1_CTS!/MTRACE_D2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTE2/LLWU_P1/MADC0_DP1/SPI1_SCK/!UART1_CTS!/MTRACE_D2"/>
 <wire x1="66.04" y1="0" x2="228.6" y2="0" width="0.1524" layer="91"/>
@@ -2594,7 +2594,7 @@ Based on the following sources :
 <pinref part="U$12" gate="G$1" pin="P$18"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="PTE3/MADC0_DM1/SPI1_SIN/!UART1_RTS!/MTRACE_D1/SPI1_SOUT" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTE3/MADC0_DM1/SPI1_SIN/!UART1_RTS!/MTRACE_D1/SPI1_SOUT"/>
 <wire x1="231.14" y1="-2.54" x2="66.04" y2="-2.54" width="0.1524" layer="91"/>
@@ -2611,7 +2611,7 @@ Based on the following sources :
 <pinref part="U$12" gate="G$1" pin="P$16"/>
 </segment>
 </net>
-<net name="N$44" class="0">
+<net name="PTE4/LLWU_P2/SPI1_PCS0/MTRACE_D0" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTE4/LLWU_P2/SPI1_PCS0/MTRACE_D0"/>
 <wire x1="66.04" y1="-5.08" x2="233.68" y2="-5.08" width="0.1524" layer="91"/>
@@ -2628,7 +2628,7 @@ Based on the following sources :
 <wire x1="317.5" y1="104.14" x2="317.5" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$45" class="0">
+<net name="PTE16/ADC0_SE4A/SPI0_PCS0/UART2_TX/FTM_CLKIN0/FTM0_FLT3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTE16/ADC0_SE4A/SPI0_PCS0/UART2_TX/FTM_CLKIN0/FTM0_FLT3"/>
 <wire x1="66.04" y1="10.16" x2="236.22" y2="10.16" width="0.1524" layer="91"/>
@@ -2637,7 +2637,7 @@ Based on the following sources :
 <wire x1="241.3" y1="10.16" x2="241.3" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$46" class="0">
+<net name="PTE17/ADC0_SE5A/SPI0_SCK/UART2_RX/FTM_CLKIN1/LPTMR0_ALT3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTE17/ADC0_SE5A/SPI0_SCK/UART2_RX/FTM_CLKIN1/LPTMR0_ALT3"/>
 <wire x1="66.04" y1="7.62" x2="238.76" y2="7.62" width="0.1524" layer="91"/>
@@ -2646,7 +2646,7 @@ Based on the following sources :
 <wire x1="243.84" y1="7.62" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="PTE18/ADC0_SE6A/SPI0_SOUT/!UART2_CTS!/I2C0_SDA" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTE18/ADC0_SE6A/SPI0_SOUT/!UART2_CTS!/I2C0_SDA"/>
 <wire x1="66.04" y1="5.08" x2="241.3" y2="5.08" width="0.1524" layer="91"/>
@@ -2655,7 +2655,7 @@ Based on the following sources :
 <wire x1="246.38" y1="5.08" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="PTA0/JTAG_TCLK/SWD_CLK/EZP_CLK/!UART0_CTS/!UART0_COL/FTM0_CH5" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTA0/JTAG_TCLK/SWD_CLK/EZP_CLK/!UART0_CTS/!UART0_COL/FTM0_CH5"/>
 <wire x1="-66.04" y1="-10.16" x2="-165.1" y2="-10.16" width="0.1524" layer="91"/>
@@ -2671,7 +2671,7 @@ Based on the following sources :
 <pinref part="U$12" gate="G$1" pin="P$4"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="PTA1/JTAG_TDI/EZP_DI/UART0/RX/FTM0_CH6" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTA1/JTAG_TDI/EZP_DI/UART0/RX/FTM0_CH6"/>
 <wire x1="-66.04" y1="-12.7" x2="-167.64" y2="-12.7" width="0.1524" layer="91"/>
@@ -2687,7 +2687,7 @@ Based on the following sources :
 <wire x1="309.88" y1="127" x2="309.88" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="PTA2/JTAG_TDO/TRACE?SWO/EZP_DO/UART0_TX/FTM0_CH7" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTA2/JTAG_TDO/TRACE?SWO/EZP_DO/UART0_TX/FTM0_CH7"/>
 <wire x1="-66.04" y1="-15.24" x2="-170.18" y2="-15.24" width="0.1524" layer="91"/>
@@ -2703,7 +2703,7 @@ Based on the following sources :
 <pinref part="U$12" gate="G$1" pin="P$6"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="PTA3/JTAG_TMS/SWD_DIO/UART0_RTS/FTM0_CH0" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTA3/JTAG_TMS/SWD_DIO/UART0_RTS/FTM0_CH0"/>
 <wire x1="-66.04" y1="-17.78" x2="-172.72" y2="-17.78" width="0.1524" layer="91"/>
@@ -2719,7 +2719,7 @@ Based on the following sources :
 <pinref part="U$12" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="PTA4/LLWU_P3/!NMI!/!EZP_CS!/FTM0_CH1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTA4/LLWU_P3/!NMI!/!EZP_CS!/FTM0_CH1"/>
 <wire x1="-66.04" y1="-20.32" x2="-175.26" y2="-20.32" width="0.1524" layer="91"/>
@@ -2731,7 +2731,7 @@ Based on the following sources :
 <wire x1="223.52" y1="134.62" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$49" class="0">
+<net name="PTA18/EXTAL0/FTM0_FTL2_FTM_CLKIN0" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTA18/EXTAL0/FTM0_FTL2_FTM_CLKIN0"/>
 <wire x1="-66.04" y1="-22.86" x2="-177.8" y2="-22.86" width="0.1524" layer="91"/>
@@ -2743,7 +2743,7 @@ Based on the following sources :
 <wire x1="226.06" y1="137.16" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$50" class="0">
+<net name="PTA19/XTAL0/FTM1_FLT0/FTM_CLKIN1/LPTMR0_ALT1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTA19/XTAL0/FTM1_FLT0/FTM_CLKIN1/LPTMR0_ALT1"/>
 <wire x1="-66.04" y1="-25.4" x2="-180.34" y2="-25.4" width="0.1524" layer="91"/>
@@ -2755,7 +2755,7 @@ Based on the following sources :
 <wire x1="228.6" y1="139.7" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$48" class="0">
+<net name="PTE19/ADC0_SE7A/SPI0_SIN/!UART2_RTS!/I2C0_SCL" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTE19/ADC0_SE7A/SPI0_SIN/!UART2_RTS!/I2C0_SCL"/>
 <wire x1="66.04" y1="2.54" x2="243.84" y2="2.54" width="0.1524" layer="91"/>
@@ -2764,7 +2764,7 @@ Based on the following sources :
 <wire x1="248.92" y1="2.54" x2="248.92" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="!RESET" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="!RESET"/>
 <wire x1="-66.04" y1="7.62" x2="-132.08" y2="7.62" width="0.1524" layer="91"/>
@@ -2797,7 +2797,7 @@ Based on the following sources :
 <wire x1="228.6" y1="-60.96" x2="228.6" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="C_LNA" class="0">
 <segment>
 <pinref part="R$1" gate="G$1" pin="1"/>
 <pinref part="R$2" gate="G$1" pin="2"/>
@@ -2808,7 +2808,7 @@ Based on the following sources :
 <wire x1="330.2" y1="27.94" x2="330.2" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$51" class="0">
+<net name="!CS" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="!CS"/>
 <wire x1="-109.22" y1="-81.28" x2="-111.76" y2="-81.28" width="0.1524" layer="91"/>
@@ -2816,9 +2816,10 @@ Based on the following sources :
 <wire x1="-111.76" y1="-93.98" x2="-76.2" y2="-93.98" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="1"/>
 <wire x1="-76.2" y1="-93.98" x2="-76.2" y2="-55.88" width="0.1524" layer="91"/>
+<label x="-110.49" y="-92.71" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$52" class="0">
+<net name="SCK" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SCK"/>
 <wire x1="-109.22" y1="-78.74" x2="-116.84" y2="-78.74" width="0.1524" layer="91"/>
@@ -2828,7 +2829,7 @@ Based on the following sources :
 <wire x1="-73.66" y1="-96.52" x2="-73.66" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$53" class="0">
+<net name="SI" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SI"/>
 <wire x1="-109.22" y1="-73.66" x2="-119.38" y2="-73.66" width="0.1524" layer="91"/>
