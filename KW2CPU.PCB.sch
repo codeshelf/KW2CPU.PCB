@@ -918,20 +918,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</descripti
 <library name="ZIGBEE">
 <packages>
 <package name="LGA63">
-<smd name="P$7" x="0.135" y="4.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$8" x="0.135" y="3.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$6" x="0.125" y="4.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$5" x="0.125" y="5.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$4" x="0.125" y="5.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$3" x="0.125" y="6.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$2" x="0.125" y="6.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$1" x="0.125" y="7.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$9" x="0.125" y="3.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$10" x="0.125" y="2.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$11" x="0.125" y="2.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$12" x="0.125" y="1.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$13" x="0.125" y="1.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$14" x="0.125" y="0.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<circle x="-1.03" y="7.86" radius="0.134534375" width="0.254" layer="21"/>
 <wire x1="0" y1="0" x2="8" y2="0" width="0.127" layer="51"/>
 <wire x1="8" y1="0" x2="8" y2="8" width="0.127" layer="51"/>
 <wire x1="8" y1="8" x2="0.5" y2="8" width="0.127" layer="51"/>
@@ -939,74 +926,11 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</descripti
 <wire x1="0" y1="8" x2="0" y2="7.5" width="0.127" layer="51"/>
 <wire x1="0" y1="7.5" x2="0" y2="0" width="0.127" layer="51"/>
 <wire x1="0" y1="7.5" x2="0.5" y2="8" width="0.127" layer="51"/>
-<smd name="P$36" x="7.885" y="4.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$35" x="7.885" y="3.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$37" x="7.875" y="4.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$38" x="7.875" y="5.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$39" x="7.875" y="5.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$40" x="7.875" y="6.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$41" x="7.875" y="6.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$42" x="7.875" y="7.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$34" x="7.875" y="3.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$33" x="7.875" y="2.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$32" x="7.875" y="2.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$31" x="7.875" y="1.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$30" x="7.875" y="1.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$29" x="7.875" y="0.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
-<smd name="P$21" x="3.75" y="0.135" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$22" x="4.25" y="0.135" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$20" x="3.25" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$19" x="2.75" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$18" x="2.25" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$17" x="1.75" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$16" x="1.25" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$15" x="0.75" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$23" x="4.75" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$24" x="5.25" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$25" x="5.75" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$26" x="6.25" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$27" x="6.75" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$28" x="7.25" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$49" x="4.25" y="7.874" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$48" x="4.751" y="7.874" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$50" x="3.75" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$51" x="3.25" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$52" x="2.75" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$53" x="2.25" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$54" x="1.75" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$55" x="1.25" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$56" x="0.75" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$47" x="5.25" y="7.874" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$46" x="5.75" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$45" x="6.25" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$44" x="6.75" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$43" x="7.25" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
-<smd name="P$57" x="5.75" y="6.75" dx="0.4064" dy="0.4064" layer="1"/>
-<smd name="P$58" x="6.75" y="6.75" dx="0.4064" dy="0.4064" layer="1"/>
-<smd name="P$60" x="6.75" y="5.75" dx="0.4064" dy="0.4064" layer="1"/>
-<smd name="P$59" x="5.75" y="5.75" dx="0.4064" dy="0.4064" layer="1"/>
-<smd name="P$62" x="6.75" y="4.75" dx="0.4064" dy="0.4064" layer="1"/>
-<smd name="P$61" x="5.75" y="4.75" dx="0.4064" dy="0.4064" layer="1"/>
-<smd name="P$63" x="4" y="7" dx="0.6604" dy="0.4064" layer="1"/>
 <wire x1="2.800440625" y1="6.796884375" x2="2.800440625" y2="6.788328125" width="0.0127" layer="1"/>
-<polygon width="0.0127" layer="1">
-<vertex x="2.800265625" y="6.790528125"/>
-<vertex x="2.800265625" y="5.2013"/>
-<vertex x="5.205884375" y="5.2013"/>
-<vertex x="5.205884375" y="6.79729375"/>
-<vertex x="4.67566875" y="6.79729375"/>
-<vertex x="4.67566875" y="6.423696875"/>
-<vertex x="3.26609375" y="6.423696875"/>
-<vertex x="3.26609375" y="6.796528125"/>
-<vertex x="2.800053125" y="6.796528125"/>
-<vertex x="2.800053125" y="6.79118125"/>
-</polygon>
-<polygon width="0.0127" layer="1">
-<vertex x="2.729765625" y="1.283515625"/>
-<vertex x="5.7681875" y="1.283515625"/>
-<vertex x="5.7681875" y="4.21650625"/>
-<vertex x="2.73129375" y="4.21650625"/>
-</polygon>
+<wire x1="8.43" y1="8.43" x2="-0.43" y2="8.43" width="0.254" layer="21"/>
+<wire x1="-0.43" y1="-0.43" x2="8.43" y2="-0.43" width="0.254" layer="21"/>
+<wire x1="8.43" y1="-0.43" x2="8.43" y2="8.43" width="0.254" layer="21"/>
+<wire x1="-0.43" y1="-0.43" x2="-0.43" y2="8.43" width="0.254" layer="21"/>
 <rectangle x1="2.757640625" y1="5.170575" x2="5.23200625" y2="6.44018125" layer="29"/>
 <rectangle x1="4.648396875" y1="6.432165625" x2="5.229721875" y2="6.822428125" layer="29"/>
 <rectangle x1="2.75921875" y1="6.438725" x2="3.28908125" y2="6.82095" layer="29"/>
@@ -1022,15 +946,89 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</descripti
 <rectangle x1="4.875" y1="2.4375" x2="5.5" y2="3.0625" layer="31"/>
 <rectangle x1="4.875" y1="3.375" x2="5.5" y2="4" layer="31"/>
 <rectangle x1="3.9375" y1="3.375" x2="4.5625" y2="4" layer="31"/>
+<smd name="P$1" x="0.125" y="7.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$2" x="0.125" y="6.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$3" x="0.125" y="6.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$4" x="0.125" y="5.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$5" x="0.125" y="5.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$6" x="0.125" y="4.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$7" x="0.135" y="4.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$8" x="0.135" y="3.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$9" x="0.125" y="3.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$10" x="0.125" y="2.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$11" x="0.125" y="2.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$12" x="0.125" y="1.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$13" x="0.125" y="1.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$14" x="0.125" y="0.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$15" x="0.75" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$16" x="1.25" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$17" x="1.75" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$18" x="2.25" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$19" x="2.75" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$20" x="3.25" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$21" x="3.75" y="0.135" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$22" x="4.25" y="0.135" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$23" x="4.75" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$24" x="5.25" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$25" x="5.75" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$26" x="6.25" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$27" x="6.75" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$28" x="7.25" y="0.125" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$29" x="7.875" y="0.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$30" x="7.875" y="1.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$31" x="7.875" y="1.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$32" x="7.875" y="2.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$33" x="7.875" y="2.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$34" x="7.875" y="3.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$35" x="7.885" y="3.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$36" x="7.885" y="4.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$37" x="7.875" y="4.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$38" x="7.875" y="5.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$39" x="7.875" y="5.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$40" x="7.875" y="6.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$41" x="7.875" y="6.75" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$42" x="7.875" y="7.25" dx="0.7112" dy="0.254" layer="1" roundness="100"/>
+<smd name="P$43" x="7.25" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$44" x="6.75" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$45" x="6.25" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$46" x="5.75" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$47" x="5.25" y="7.874" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$48" x="4.751" y="7.874" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$49" x="4.25" y="7.874" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$50" x="3.75" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$51" x="3.25" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$52" x="2.75" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$53" x="2.25" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$54" x="1.75" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$55" x="1.25" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$56" x="0.75" y="7.875" dx="0.7112" dy="0.254" layer="1" roundness="100" rot="R90"/>
+<smd name="P$57" x="5.75" y="6.75" dx="0.4064" dy="0.4064" layer="1"/>
+<smd name="P$58" x="6.75" y="6.75" dx="0.4064" dy="0.4064" layer="1"/>
+<smd name="P$59" x="5.75" y="5.75" dx="0.4064" dy="0.4064" layer="1"/>
+<smd name="P$60" x="6.75" y="5.75" dx="0.4064" dy="0.4064" layer="1"/>
+<smd name="P$61" x="5.75" y="4.75" dx="0.4064" dy="0.4064" layer="1"/>
+<smd name="P$62" x="6.75" y="4.75" dx="0.4064" dy="0.4064" layer="1"/>
+<smd name="P$63" x="4" y="7" dx="0.6604" dy="0.4064" layer="1"/>
 <smd name="P$64" x="3.5" y="5.8125" dx="0.5" dy="0.5" layer="1"/>
 <smd name="P$65" x="4.25" y="2.75" dx="0.5" dy="0.5" layer="1"/>
 <text x="1.7875" y="9.1725" size="1.016" layer="25" font="vector">&gt;Name</text>
 <text x="1.5375" y="-1.9825" size="0.6096" layer="27" font="vector">&gt;Value</text>
-<wire x1="8.43" y1="8.43" x2="-0.43" y2="8.43" width="0.254" layer="21"/>
-<wire x1="-0.43" y1="-0.43" x2="8.43" y2="-0.43" width="0.254" layer="21"/>
-<wire x1="8.43" y1="-0.43" x2="8.43" y2="8.43" width="0.254" layer="21"/>
-<wire x1="-0.43" y1="-0.43" x2="-0.43" y2="8.43" width="0.254" layer="21"/>
-<circle x="-1.03" y="7.86" radius="0.134534375" width="0.254" layer="21"/>
+<polygon width="0.0127" layer="1">
+<vertex x="2.800265625" y="5.2013"/>
+<vertex x="5.205884375" y="5.2013"/>
+<vertex x="5.205884375" y="6.79729375"/>
+<vertex x="4.67566875" y="6.79729375"/>
+<vertex x="4.67566875" y="6.423696875"/>
+<vertex x="3.26609375" y="6.423696875"/>
+<vertex x="3.26609375" y="6.796528125"/>
+<vertex x="2.800053125" y="6.796528125"/>
+</polygon>
+<polygon width="0.0127" layer="1">
+<vertex x="2.729765625" y="1.283515625"/>
+<vertex x="5.7681875" y="1.283515625"/>
+<vertex x="5.7681875" y="4.21650625"/>
+<vertex x="2.73129375" y="4.21650625"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -1039,16 +1037,24 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</descripti
 <wire x1="-60.96" y1="50.8" x2="60.96" y2="50.8" width="0.254" layer="94"/>
 <wire x1="60.96" y1="50.8" x2="60.96" y2="-55.88" width="0.254" layer="94"/>
 <wire x1="60.96" y1="-55.88" x2="-60.96" y2="-55.88" width="0.254" layer="94"/>
-<pin name="XTAL32" x="-66.04" y="35.56" visible="pin" length="middle"/>
+<pin name="!RESET" x="-66.04" y="7.62" length="middle"/>
+<pin name="ANT_A" x="66.04" y="48.26" length="middle" rot="R180"/>
+<pin name="ANT_B" x="66.04" y="45.72" length="middle" rot="R180"/>
+<pin name="EP_GND1" x="-2.54" y="-60.96" length="middle" rot="R90"/>
+<pin name="EP_GND2" x="0" y="-60.96" length="middle" rot="R90"/>
 <pin name="EXTAL32" x="-66.04" y="33.02" visible="pin" length="middle"/>
 <pin name="EXTAL_32M" x="-66.04" y="27.94" length="middle"/>
-<pin name="XTAL_32M" x="-66.04" y="25.4" length="middle"/>
+<pin name="GND_PA1" x="10.16" y="-60.96" length="middle" rot="R90"/>
+<pin name="GND_PA2" x="12.7" y="-60.96" length="middle" rot="R90"/>
+<pin name="GND_PA3" x="15.24" y="-60.96" length="middle" rot="R90"/>
 <pin name="GPIO1" x="-66.04" y="20.32" length="middle"/>
 <pin name="GPIO2" x="-66.04" y="17.78" length="middle"/>
-<pin name="TAMPER0/!RTC_WAKEUP" x="-66.04" y="12.7" length="middle"/>
-<pin name="!RESET" x="-66.04" y="7.62" length="middle"/>
-<pin name="RX_SWITCH" x="-66.04" y="0" length="middle"/>
-<pin name="TX_SWITCH" x="-66.04" y="-2.54" length="middle"/>
+<pin name="NC_57" x="66.04" y="-33.02" length="middle" rot="R180"/>
+<pin name="NC_58" x="66.04" y="-35.56" length="middle" rot="R180"/>
+<pin name="NC_59" x="66.04" y="-38.1" length="middle" rot="R180"/>
+<pin name="NC_60" x="66.04" y="-40.64" length="middle" rot="R180"/>
+<pin name="NC_61" x="66.04" y="-43.18" length="middle" rot="R180"/>
+<pin name="NC_62" x="66.04" y="-45.72" length="middle" rot="R180"/>
 <pin name="PTA0/JTAG_TCLK/SWD_CLK/EZP_CLK/!UART0_CTS/!UART0_COL/FTM0_CH5" x="-66.04" y="-10.16" length="middle"/>
 <pin name="PTA1/JTAG_TDI/EZP_DI/UART0/RX/FTM0_CH6" x="-66.04" y="-12.7" length="middle"/>
 <pin name="PTA2/JTAG_TDO/TRACE?SWO/EZP_DO/UART0_TX/FTM0_CH7" x="-66.04" y="-15.24" length="middle"/>
@@ -1057,62 +1063,54 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc3500.pdf</descripti
 <pin name="PTA18/EXTAL0/FTM0_FTL2_FTM_CLKIN0" x="-66.04" y="-22.86" length="middle"/>
 <pin name="PTA19/XTAL0/FTM1_FLT0/FTM_CLKIN1/LPTMR0_ALT1" x="-66.04" y="-25.4" length="middle"/>
 <pin name="PTC4/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT" x="-66.04" y="-33.02" length="middle"/>
-<pin name="PTC5/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT" x="-66.04" y="-35.56" length="middle"/>
+<pin name="PTC5/LLWU_P9/SPI0_SCK/LPTMR0_ALT2/I2S0_RXDO/CMP0_OUT" x="-66.04" y="-35.56" length="middle"/>
 <pin name="PTC6/LLWU_P10/CMP0_IN0/SPI0_SOUT/PDB0_EXTRG/I2S0_RX_BCLK/I2S0_MCLK" x="-66.04" y="-38.1" length="middle"/>
 <pin name="PTC7/CMP0_IN1/SPI0_SIN/USB_SOF_OUT/I2S0_RX_FS" x="-66.04" y="-40.64" length="middle"/>
-<pin name="EP_GND1" x="-2.54" y="-60.96" length="middle" rot="R90"/>
-<pin name="EP_GND2" x="0" y="-60.96" length="middle" rot="R90"/>
-<pin name="GND_PA1" x="10.16" y="-60.96" length="middle" rot="R90"/>
-<pin name="GND_PA3" x="15.24" y="-60.96" length="middle" rot="R90"/>
-<pin name="GND_PA2" x="12.7" y="-60.96" length="middle" rot="R90"/>
-<pin name="NC_62" x="66.04" y="-45.72" length="middle" rot="R180"/>
-<pin name="NC_61" x="66.04" y="-43.18" length="middle" rot="R180"/>
-<pin name="NC_60" x="66.04" y="-40.64" length="middle" rot="R180"/>
-<pin name="NC_59" x="66.04" y="-38.1" length="middle" rot="R180"/>
-<pin name="NC_58" x="66.04" y="-35.56" length="middle" rot="R180"/>
-<pin name="NC_57" x="66.04" y="-33.02" length="middle" rot="R180"/>
+<pin name="PTD1/ADC0_SE5B/SPI0_SCK/!UART2_CTS" x="66.04" y="38.1" length="middle" rot="R180"/>
+<pin name="PTD2/LLWU_P13/SPI0_SOUT/UART2_RX/I2C0_SDA/GPIO4_BSM_DATA" x="66.04" y="35.56" length="middle" rot="R180"/>
+<pin name="PTD3/SPI0_SIN/UART2_TX/I2C0_SCL/GPIO5_BSM_CLK" x="66.04" y="33.02" length="middle" rot="R180"/>
+<pin name="PTD4/LLWU_P14/MADC0_SE21/SPI0_PCS1/!UART0_RTS!/FTM0_CH4/EWM_IN/GPIO_BSM_FRAME" x="66.04" y="30.48" length="middle" rot="R180"/>
+<pin name="PTD5/ADC0_SE6B/SPI0_PCS2/!UART0_CTS!/!UART0_COL!/FTM0_CH5/!EWM_OUT" x="66.04" y="27.94" length="middle" rot="R180"/>
+<pin name="PTD6/LLWU_P15/ADC0_SE7B/SPI0_PCS3/UART0_RX/FTM0_CH6/FTM0_FLT0" x="66.04" y="25.4" length="middle" rot="R180"/>
+<pin name="PTD7/MADC0_SE22/CMT_IRO/UART0_TX/FTM0_CH7/FTM0_FLT1" x="66.04" y="22.86" length="middle" rot="R180"/>
+<pin name="PTE0/MADC0_SE10/SPI1_PCS1/UART1_TX/MTRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT" x="66.04" y="15.24" length="middle" rot="R180"/>
+<pin name="PTE1/LLWU_P0/MADC0_SE11/SPI1_SOUT/UART1_RX/MTRACE_D3/I2C1_SCL/SPI1_SIN" x="66.04" y="12.7" length="middle" rot="R180"/>
+<pin name="PTE2/LLWU_P1/MADC0_DP1/SPI1_SCK/!UART1_CTS!/MTRACE_D2" x="66.04" y="0" length="middle" rot="R180"/>
+<pin name="PTE3/MADC0_DM1/SPI1_SIN/!UART1_RTS!/MTRACE_D1/SPI1_SOUT" x="66.04" y="-2.54" length="middle" rot="R180"/>
+<pin name="PTE4/LLWU_P2/SPI1_PCS0/MTRACE_D0" x="66.04" y="-5.08" length="middle" rot="R180"/>
+<pin name="PTE16/ADC0_SE4A/SPI0_PCS0/UART2_TX/FTM_CLKIN0/FTM0_FLT3" x="66.04" y="10.16" length="middle" rot="R180"/>
+<pin name="PTE17/ADC0_SE5A/SPI0_SCK/UART2_RX/FTM_CLKIN1/LPTMR0_ALT3" x="66.04" y="7.62" length="middle" rot="R180"/>
+<pin name="PTE18/ADC0_SE6A/SPI0_SOUT/!UART2_CTS!/I2C0_SDA" x="66.04" y="5.08" length="middle" rot="R180"/>
+<pin name="PTE19/ADC0_SE7A/SPI0_SIN/!UART2_RTS!/I2C0_SCL" x="66.04" y="2.54" length="middle" rot="R180"/>
 <pin name="RF_OUTN" x="66.04" y="-15.24" length="middle" rot="R180"/>
 <pin name="RF_OUTP" x="66.04" y="-12.7" length="middle" rot="R180"/>
-<pin name="PTE4/LLWU_P2/SPI1_PCS0/MTRACE_D0" x="66.04" y="-5.08" length="middle" rot="R180"/>
-<pin name="PTE3/MADC0_DM1/SPI1_SIN/!UART1_RTS!/MTRACE_D1/SPI1_SOUT" x="66.04" y="-2.54" length="middle" rot="R180"/>
-<pin name="PTE2/LLWU_P1/MADC0_DP1/SPI1_SCK/!UART1_CTS!/MTRACE_D2" x="66.04" y="0" length="middle" rot="R180"/>
-<pin name="PTE19/ADC0_SE7A/SPI0_SIN/!UART2_RTS!/I2C0_SCL" x="66.04" y="2.54" length="middle" rot="R180"/>
-<pin name="PTE18/ADC0_SE6A/SPI0_SOUT/!UART2_CTS!/I2C0_SDA" x="66.04" y="5.08" length="middle" rot="R180"/>
-<pin name="PTE17/ADC0_SE5A/SPI0_SCK/UART2_RX/FTM_CLKIN1/LPTMR0_ALT3" x="66.04" y="7.62" length="middle" rot="R180"/>
-<pin name="PTE16/ADC0_SE4A/SPI0_PCS0/UART2_TX/FTM_CLKIN0/FTM0_FLT3" x="66.04" y="10.16" length="middle" rot="R180"/>
-<pin name="PTE1/LLWU_P0/MADC0_SE11/SPI1_SOUT/UART1_RX/MTRACE_D3/I2C1_SCL/SPI1_SIN" x="66.04" y="12.7" length="middle" rot="R180"/>
-<pin name="PTE0/MADC0_SE10/SPI1_PCS1/UART1_TX/MTRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT" x="66.04" y="15.24" length="middle" rot="R180"/>
-<pin name="PTD7/MADC0_SE22/CMT_IRO/UART0_TX/FTM0_CH7/FTM0_FLT1" x="66.04" y="22.86" length="middle" rot="R180"/>
-<pin name="PTD6/LLWU_P15/ADC0_SE7B/SPI0_PCS3/UART0_RX/FTM0_CH6/FTM0_FLT0" x="66.04" y="25.4" length="middle" rot="R180"/>
-<pin name="PTD5/ADC0_SE6B/SPI0_PCS2/!UART0_CTS!/!UART0_COL!/FTM0_CH5/!EWM_OUT" x="66.04" y="27.94" length="middle" rot="R180"/>
-<pin name="PTD4/LLWU_P14/MADC0_SE21/SPI0_PCS1/!UART0_RTS!/FTM0_CH4/EWM_IN/GPIO_BSM_FRAME" x="66.04" y="30.48" length="middle" rot="R180"/>
-<pin name="PTD3/SPI0_SIN/UART2_TX/I2C0_SCL/GPIO5_BSM_CLK" x="66.04" y="33.02" length="middle" rot="R180"/>
-<pin name="PTD2/LLWU_P13/SPI0_SOUT/UART2_RX/I2C0_SDA/GPIO4_BSM_DATA" x="66.04" y="35.56" length="middle" rot="R180"/>
-<pin name="PTD1/ADC0_SE5B/SPI0_SCK/!UART2_CTS" x="66.04" y="38.1" length="middle" rot="R180"/>
-<pin name="ANT_B" x="66.04" y="45.72" length="middle" rot="R180"/>
-<pin name="ANT_A" x="66.04" y="48.26" length="middle" rot="R180"/>
-<pin name="VREFL" x="17.78" y="55.88" length="middle" rot="R270"/>
-<pin name="VREFH" x="15.24" y="55.88" length="middle" rot="R270"/>
-<pin name="VBAT_RF" x="7.62" y="55.88" length="middle" rot="R270"/>
+<pin name="RX_SWITCH" x="-66.04" y="0" length="middle"/>
+<pin name="TAMPER0/!RTC_WAKEUP" x="-66.04" y="12.7" length="middle"/>
+<pin name="TX_SWITCH" x="-66.04" y="-2.54" length="middle"/>
 <pin name="VBAT2_RF" x="5.08" y="55.88" length="middle" rot="R270"/>
 <pin name="VBAT_MCU" x="2.54" y="55.88" length="middle" rot="R270"/>
-<pin name="VDD_RF" x="-5.08" y="55.88" length="middle" rot="R270"/>
-<pin name="VDD_IF" x="-7.62" y="55.88" length="middle" rot="R270"/>
-<pin name="VDD_PA" x="-10.16" y="55.88" length="middle" rot="R270"/>
-<pin name="VDD_REGD" x="-12.7" y="55.88" length="middle" rot="R270"/>
-<pin name="VSSA" x="-22.86" y="55.88" length="middle" rot="R270"/>
+<pin name="VBAT_RF" x="7.62" y="55.88" length="middle" rot="R270"/>
 <pin name="VDDA" x="-25.4" y="55.88" length="middle" rot="R270"/>
+<pin name="VDD_IF" x="-7.62" y="55.88" length="middle" rot="R270"/>
 <pin name="VDD_MCU" x="-33.02" y="55.88" length="middle" rot="R270"/>
 <pin name="VDD_MCU_" x="-35.56" y="55.88" length="middle" rot="R270"/>
+<pin name="VDD_PA" x="-10.16" y="55.88" length="middle" rot="R270"/>
+<pin name="VDD_REGD" x="-12.7" y="55.88" length="middle" rot="R270"/>
+<pin name="VDD_RF" x="-5.08" y="55.88" length="middle" rot="R270"/>
+<pin name="VREFH" x="15.24" y="55.88" length="middle" rot="R270"/>
+<pin name="VREFL" x="17.78" y="55.88" length="middle" rot="R270"/>
+<pin name="VSSA" x="-22.86" y="55.88" length="middle" rot="R270"/>
+<pin name="XTAL32" x="-66.04" y="35.56" visible="pin" length="middle"/>
+<pin name="XTAL_32M" x="-66.04" y="25.4" length="middle"/>
 <text x="-58.42" y="53.34" size="2.54" layer="95">U?</text>
 <text x="-58.42" y="-60.96" size="2.54" layer="96">&lt;Value&gt;</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="MKW21D">
-<description>Freescale's new Kinetis KW20 wireless MCUs expands on the successful Kinetis MCU family based on the ARM® Cortex™-M4 CPU core.
+<description>Freescale's new Kinetis KW20 wireless MCUs expands on the successful Kinetis MCU family based on the ARM® Cortex-M4 CPU core.
 
-The Kinetis KW20 Wireless MCU integrates a class-leading RF transceiver, Cortex™-M4 and a robust feature set for reliable, secure, and low-power IEEE® 802.15.4 wireless solutions.
+The Kinetis KW20 Wireless MCU integrates a class-leading RF transceiver, Cortex-M4 and a robust feature set for reliable, secure, and low-power IEEE® 802.15.4 wireless solutions.
 
 Product Summary Page:
 http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=KW20
@@ -1151,7 +1149,7 @@ http://cache.freescale.com/files/rf_if/doc/data_sheet/MKW22D512V.pdf</descriptio
 <connect gate="G$1" pin="PTA3/JTAG_TMS/SWD_DIO/UART0_RTS/FTM0_CH0" pad="P$36"/>
 <connect gate="G$1" pin="PTA4/LLWU_P3/!NMI!/!EZP_CS!/FTM0_CH1" pad="P$37"/>
 <connect gate="G$1" pin="PTC4/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT" pad="P$4"/>
-<connect gate="G$1" pin="PTC5/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT" pad="P$5"/>
+<connect gate="G$1" pin="PTC5/LLWU_P9/SPI0_SCK/LPTMR0_ALT2/I2S0_RXDO/CMP0_OUT" pad="P$5"/>
 <connect gate="G$1" pin="PTC6/LLWU_P10/CMP0_IN0/SPI0_SOUT/PDB0_EXTRG/I2S0_RX_BCLK/I2S0_MCLK" pad="P$6"/>
 <connect gate="G$1" pin="PTC7/CMP0_IN1/SPI0_SIN/USB_SOF_OUT/I2S0_RX_FS" pad="P$7"/>
 <connect gate="G$1" pin="PTD1/ADC0_SE5B/SPI0_SCK/!UART2_CTS" pad="P$8"/>
@@ -2544,6 +2542,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP10" library="testpad" deviceset="PTR1" device="TP15R"/>
 <part name="TP11" library="testpad" deviceset="PTR1" device="TP15R"/>
 <part name="TP12" library="testpad" deviceset="PTR1" device="TP15R"/>
+<part name="R10" library="GW-devices" deviceset="RF-R" device="0402" value="10K"/>
+<part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2742,6 +2742,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP10" gate="G$1" x="106.68" y="63.5" rot="R180"/>
 <instance part="TP11" gate="G$1" x="111.76" y="63.5" rot="R180"/>
 <instance part="TP12" gate="G$1" x="116.84" y="63.5" rot="R180"/>
+<instance part="R10" gate="G$1" x="-147.32" y="38.1" rot="R90"/>
+<instance part="+3V14" gate="G$1" x="-147.32" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -2925,6 +2927,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="292.1" y1="66.04" x2="292.1" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="P$1"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="EXTAL_32M" class="0">
 <segment>
@@ -2987,7 +2993,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="PTC5/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PTC5/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT"/>
+<pinref part="U1" gate="G$1" pin="PTC5/LLWU_P9/SPI0_SCK/LPTMR0_ALT2/I2S0_RXDO/CMP0_OUT"/>
 <wire x1="-73.66" y1="-35.56" x2="-66.04" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="P$24"/>
 <wire x1="233.68" y1="99.06" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
@@ -3547,7 +3553,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-132.08" y1="7.62" x2="-132.08" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="15.24" x2="-142.24" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="15.24" x2="-142.24" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-142.24" y1="33.02" x2="-162.56" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="33.02" x2="-147.32" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="33.02" x2="-162.56" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="33.02" x2="-162.56" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="P$6"/>
@@ -3561,6 +3568,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="TP5" gate="G$1" pin="TP"/>
 <wire x1="297.18" y1="142.24" x2="297.18" y2="121.92" width="0.1524" layer="91"/>
 <junction x="297.18" y="121.92"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VIN" class="0">
