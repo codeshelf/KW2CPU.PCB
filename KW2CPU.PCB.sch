@@ -2540,6 +2540,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP6" library="testpad" deviceset="PTR1" device="TP15R"/>
 <part name="TP7" library="testpad" deviceset="PTR1" device="TP15R"/>
 <part name="TP8" library="testpad" deviceset="PTR1" device="TP15R"/>
+<part name="TP9" library="testpad" deviceset="PTR1" device="TP15R"/>
+<part name="TP10" library="testpad" deviceset="PTR1" device="TP15R"/>
+<part name="TP11" library="testpad" deviceset="PTR1" device="TP15R"/>
+<part name="TP12" library="testpad" deviceset="PTR1" device="TP15R"/>
 </parts>
 <sheets>
 <sheet>
@@ -2734,6 +2738,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP6" gate="G$1" x="287.02" y="106.68" rot="R180"/>
 <instance part="TP7" gate="G$1" x="292.1" y="106.68" rot="R180"/>
 <instance part="TP8" gate="G$1" x="350.52" y="53.34" rot="R180"/>
+<instance part="TP9" gate="G$1" x="101.6" y="63.5" rot="R180"/>
+<instance part="TP10" gate="G$1" x="106.68" y="63.5" rot="R180"/>
+<instance part="TP11" gate="G$1" x="111.76" y="63.5" rot="R180"/>
+<instance part="TP12" gate="G$1" x="116.84" y="63.5" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3244,37 +3252,53 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <net name="PTD4/LLWU_P14/MADC0_SE21/SPI0_PCS1/!UART0_RTS!/FTM0_CH4/EWM_IN/GPIO_BSM_FRAME" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PTD4/LLWU_P14/MADC0_SE21/SPI0_PCS1/!UART0_RTS!/FTM0_CH4/EWM_IN/GPIO_BSM_FRAME"/>
-<wire x1="66.04" y1="30.48" x2="213.36" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="P$11"/>
+<wire x1="101.6" y1="30.48" x2="213.36" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="30.48" x2="218.44" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="30.48" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="TP9" gate="G$1" pin="TP"/>
+<wire x1="101.6" y1="60.96" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
+<junction x="101.6" y="30.48"/>
 </segment>
 </net>
 <net name="PTD5/ADC0_SE6B/SPI0_PCS2/!UART0_CTS!/!UART0_COL!/FTM0_CH5/!EWM_OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PTD5/ADC0_SE6B/SPI0_PCS2/!UART0_CTS!/!UART0_COL!/FTM0_CH5/!EWM_OUT"/>
-<wire x1="66.04" y1="27.94" x2="215.9" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="P$13"/>
+<wire x1="106.68" y1="27.94" x2="215.9" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="27.94" x2="220.98" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="27.94" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="TP10" gate="G$1" pin="TP"/>
+<wire x1="106.68" y1="60.96" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
+<junction x="106.68" y="27.94"/>
 </segment>
 </net>
 <net name="PTD6/LLWU_P15/ADC0_SE7B/SPI0_PCS3/UART0_RX/FTM0_CH6/FTM0_FLT0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PTD6/LLWU_P15/ADC0_SE7B/SPI0_PCS3/UART0_RX/FTM0_CH6/FTM0_FLT0"/>
-<wire x1="66.04" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="25.4" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="P$15"/>
+<wire x1="111.76" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="25.4" x2="223.52" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="25.4" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="TP11" gate="G$1" pin="TP"/>
+<wire x1="111.76" y1="60.96" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
+<junction x="111.76" y="25.4"/>
 </segment>
 </net>
 <net name="PTD7/MADC0_SE22/CMT_IRO/UART0_TX/FTM0_CH7/FTM0_FLT1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PTD7/MADC0_SE22/CMT_IRO/UART0_TX/FTM0_CH7/FTM0_FLT1"/>
-<wire x1="66.04" y1="22.86" x2="220.98" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="22.86" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="P$17"/>
+<wire x1="116.84" y1="22.86" x2="220.98" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="22.86" x2="226.06" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="22.86" x2="226.06" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="TP12" gate="G$1" pin="TP"/>
+<wire x1="116.84" y1="60.96" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
+<junction x="116.84" y="22.86"/>
 </segment>
 </net>
 <net name="PTE0/MADC0_SE10/SPI1_PCS1/UART1_TX/MTRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT" class="0">
