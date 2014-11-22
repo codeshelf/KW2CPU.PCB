@@ -1,9 +1,26 @@
 - Material: FR4
 - Thickness: 0.062"
-- Inner layers POSITIVE Gerber file
+- Inner layers POSITIVE Gerber files
 - All vias tented
 - Solder mask: BLACK
 - Silk screen: WHITE
 - Hole diameters applicable after plating
 - UL796 Flammability Rating 94V-0. Fabricator's UL Logo shall be placed on bottom side of board
 - Date of manufacture and lot code shall be placed on bottom side of board
+
+- CONTROLLED IMPEDANCE:
+1) Top layer - Differential: 7 mil trace width / 25.5 mil center - center; 50 Ohms
+2) Top layer - Single-ended: 13.1mil trace width; 50 Ohms
+
+- STACKUP:
+1)  Top silk (white)
+2)  Top mask (black)
+3)  Top (1oz)
+4)  10 mil substrate
+5)  GND (1oz)
+6)  38 mil substrate
+7)  PWR (1oz)
+8)  10 mil substrate
+9)  Bottom signal (1oz)
+10) Bottom mask (black)
+11) Bottom silk (white)
