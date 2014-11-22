@@ -66,7 +66,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -188,6 +188,7 @@
 <smd name="P$3" x="1.32" y="1.32" dx="0.94" dy="0.94" layer="1"/>
 <smd name="P$4" x="1.32" y="-1.32" dx="0.94" dy="0.94" layer="1"/>
 <smd name="P$5" x="-1.32" y="-1.32" dx="0.94" dy="0.94" layer="1"/>
+<text x="-3.683" y="2.159" size="1.27" layer="21">&gt;NAME</text>
 </package>
 <package name="F_ANT_RFMD">
 <wire x1="-3.9116" y1="2.6797" x2="0.5842" y2="2.6797" width="0.332740625" layer="1"/>
@@ -263,6 +264,7 @@
 <wire x1="0.6" y1="0.8" x2="-0.6" y2="0.8" width="0.127" layer="21"/>
 <smd name="P$1" x="1.25" y="0" dx="1.8" dy="1" layer="1" rot="R90"/>
 <smd name="P$2" x="-1.25" y="0" dx="1.8" dy="1" layer="1" rot="R270"/>
+<text x="-1.397" y="1.27" size="0.635" layer="21">&gt;NAME</text>
 </package>
 <package name="MOLEX55560-0207">
 <smd name="P$1" x="-2.25" y="-2.75" dx="2.6" dy="0.3" layer="1" rot="R90"/>
@@ -2419,27 +2421,78 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFGP" value="EXS00A-CS02368"/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="GW-devices" deviceset="RF-C" device="0402" value="12pF"/>
-<part name="C2" library="GW-devices" deviceset="RF-C" device="0402" value="12pF"/>
-<part name="C5" library="GW-devices" deviceset="RF-C" device="0402" value="0.1uF"/>
-<part name="C6" library="GW-devices" deviceset="RF-C" device="0402" value="1000pF"/>
-<part name="C7" library="GW-devices" deviceset="RF-C" device="0402" value="5pF"/>
+<part name="C1" library="GW-devices" deviceset="RF-C" device="0402" value="12pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM1555C1H120JA01D"/>
+</part>
+<part name="C2" library="GW-devices" deviceset="RF-C" device="0402" value="12pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM1555C1H120JA01D"/>
+</part>
+<part name="C5" library="GW-devices" deviceset="RF-C" device="0402" value="0.1uF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM155R71C104KA88D"/>
+</part>
+<part name="C6" library="GW-devices" deviceset="RF-C" device="0402" value="1000pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM155R71H102KA01D"/>
+</part>
+<part name="C7" library="GW-devices" deviceset="RF-C" device="0402" value="5pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM1555C1H5R0BA01D"/>
+</part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="GW-devices" deviceset="RF-C" device="0402" value="0.33uF"/>
-<part name="C9" library="GW-devices" deviceset="RF-C" device="0402" value="33pF"/>
+<part name="C8" library="GW-devices" deviceset="RF-C" device="0402" value="0.33uF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM155R61A334KE15D"/>
+</part>
+<part name="C9" library="GW-devices" deviceset="RF-C" device="0402" value="33pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM1555C1H330JA01D"/>
+</part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="U1" library="ZIGBEE" deviceset="MKW21D" device=""/>
+<part name="U1" library="ZIGBEE" deviceset="MKW21D" device="">
+<attribute name="MFGN" value="Freescale"/>
+<attribute name="MFGP" value="MKW21D256"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="C10" library="GW-devices" deviceset="RF-C" device="0402" value="5pF"/>
-<part name="C11" library="GW-devices" deviceset="RF-C" device="0402" value="1000pF"/>
-<part name="C12" library="GW-devices" deviceset="RF-C" device="0402" value="0.33uF"/>
-<part name="C13" library="GW-devices" deviceset="RF-C" device="0402" value="5pF"/>
-<part name="C14" library="GW-devices" deviceset="RF-C" device="0402" value="1000pF"/>
-<part name="C15" library="GW-devices" deviceset="RF-C" device="0402" value="0.1uF"/>
-<part name="C16" library="GW-devices" deviceset="RF-C" device="0402" value="0.1uF"/>
-<part name="C17" library="GW-devices" deviceset="RF-C" device="0402" value="1000pF"/>
-<part name="C18" library="GW-devices" deviceset="RF-C" device="0402" value="5pF"/>
+<part name="C10" library="GW-devices" deviceset="RF-C" device="0402" value="5pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM1555C1H5R0BA01D"/>
+</part>
+<part name="C11" library="GW-devices" deviceset="RF-C" device="0402" value="1000pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM155R71H102KA01D"/>
+</part>
+<part name="C12" library="GW-devices" deviceset="RF-C" device="0402" value="0.33uF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM155R61A334KE15D"/>
+</part>
+<part name="C13" library="GW-devices" deviceset="RF-C" device="0402" value="5pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM1555C1H5R0BA01D"/>
+</part>
+<part name="C14" library="GW-devices" deviceset="RF-C" device="0402" value="1000pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM155R71H102KA01D"/>
+</part>
+<part name="C15" library="GW-devices" deviceset="RF-C" device="0402" value="0.1uF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM155R71C104KA88D"/>
+</part>
+<part name="C16" library="GW-devices" deviceset="RF-C" device="0402" value="0.1uF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM155R71C104KA88D"/>
+</part>
+<part name="C17" library="GW-devices" deviceset="RF-C" device="0402" value="1000pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM155R71H102KA01D"/>
+</part>
+<part name="C18" library="GW-devices" deviceset="RF-C" device="0402" value="5pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM1555C1H5R0BA01D"/>
+</part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -2449,33 +2502,38 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="R1" library="GW-devices" deviceset="RF-R" device="0402" value="1M"/>
+<part name="R1" library="GW-devices" deviceset="RF-R" device="0402" value="1M">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-2GEJ105X"/>
+</part>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="C19" library="GW-devices" deviceset="RF-C" device="0402" value="0.1uF"/>
+<part name="C19" library="GW-devices" deviceset="RF-C" device="0402" value="0.1uF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM155R71C104KA88D"/>
+</part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="U3" library="KW2" deviceset="RF6555" device="">
 <attribute name="MFGN" value="RFMD"/>
 <attribute name="MFGP" value="RF6555"/>
 </part>
-<part name="L1" library="GW-devices" deviceset="RF-L" device="0201">
+<part name="L1" library="GW-devices" deviceset="RF-L" device="0201" value="1nH">
 <attribute name="MFGN" value="Murata"/>
 <attribute name="MFGP" value="LQP03TN1N0B02"/>
 </part>
-<part name="L2" library="GW-devices" deviceset="RF-L" device="0201">
+<part name="L2" library="GW-devices" deviceset="RF-L" device="0201" value="1nH">
 <attribute name="MFGN" value="Murata"/>
 <attribute name="MFGP" value="LQP03TN1N0B02"/>
 </part>
-<part name="C20" library="GW-devices" deviceset="RF-C" device="">
+<part name="C20" library="GW-devices" deviceset="RF-C" device="" value="1.2pF">
 <attribute name="MFGN" value="TDK"/>
 <attribute name="MFGP" value="C0603C0G1E1R2B030BF"/>
 </part>
-<part name="R4" library="GW-devices" deviceset="RF-R" device="">
+<part name="R4" library="GW-devices" deviceset="RF-R" device="" value="0">
 <attribute name="MFGN" value="Panasonic"/>
 <attribute name="MFGP" value="ERJ-1GN0R00C"/>
 </part>
-<part name="R5" library="GW-devices" deviceset="RF-R" device="">
+<part name="R5" library="GW-devices" deviceset="RF-R" device="" value="0">
 <attribute name="MFGN" value="Panasonic"/>
 <attribute name="MFGP" value="ERJ-1GN0R00C"/>
 </part>
@@ -2483,69 +2541,78 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="C22" library="GW-devices" deviceset="RF-C" device="">
+<part name="C22" library="GW-devices" deviceset="RF-C" device="" value="1uF">
 <attribute name="MFGN" value="TDK"/>
 <attribute name="MFGP" value="C0603X5R0J105M030BC"/>
 </part>
-<part name="C23" library="GW-devices" deviceset="RF-C" device="">
+<part name="C23" library="GW-devices" deviceset="RF-C" device="" value="5.1pF">
 <attribute name="MFGN" value="TDK"/>
 <attribute name="MFGP" value="C0603C0G1E5R1C030BG"/>
 </part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
-<part name="C25" library="GW-devices" deviceset="RF-C" device="RFMD">
-<attribute name="NOTES" value="DNP"/>
+<part name="C25" library="GW-devices" deviceset="RF-C" device="RFMD" value="0.2pF">
+<attribute name="MFGN" value="Johanson"/>
+<attribute name="MFGP" value="500R07S0R2BV4T"/>
 </part>
-<part name="L4" library="GW-devices" deviceset="RF-L" device=""/>
+<part name="L4" library="GW-devices" deviceset="RF-L" device="" value="2.2nH">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value=" LQP15MN2N2B02D"/>
+</part>
 <part name="C24" library="GW-devices" deviceset="RF-C" device="RFMD">
 <attribute name="NOTES" value="DNP"/>
 </part>
 <part name="C27" library="GW-devices" deviceset="RF-C" device="RFMD">
 <attribute name="NOTES" value="DNP"/>
 </part>
-<part name="L5" library="GW-devices" deviceset="RF-L" device=""/>
+<part name="L5" library="GW-devices" deviceset="RF-L" device="" value="0">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-2GE0R00X"/>
+</part>
 <part name="C26" library="GW-devices" deviceset="RF-C" device="RFMD">
-<attribute name="NOTE" value="DNP"/>
+<attribute name="NOTES" value="DNP"/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="R9" library="GW-devices" deviceset="RF-R" device="RFMD">
+<part name="R9" library="GW-devices" deviceset="RF-R" device="RFMD" value="0">
 <attribute name="MFGN" value="Panasonic"/>
-<attribute name="MFGP" value="ERJ-2GEJ513X"/>
+<attribute name="MFGP" value="ERJ-2GE0R00X"/>
 </part>
-<part name="C28" library="GW-devices" deviceset="RF-C" device="RFMD">
+<part name="C28" library="GW-devices" deviceset="RF-C" device="RFMD" value="8pF">
 <attribute name="MFGN" value="Murata"/>
 <attribute name="MFGP" value="GJM1555C1H8R0CB01D"/>
 </part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="L3" library="GW-devices" deviceset="RF-L" device="">
+<part name="L3" library="GW-devices" deviceset="RF-L" device="" value="100Ohm Ferrite">
 <attribute name="MFGN" value="Murata"/>
 <attribute name="MFGP" value="BLM15AG100SN1D"/>
 </part>
-<part name="C29" library="GW-devices" deviceset="RF-C" device="RFMD">
+<part name="C29" library="GW-devices" deviceset="RF-C" device="RFMD" value="8pF">
 <attribute name="MFGN" value="Murata"/>
 <attribute name="MFGP" value="GJM1555C1H8R0CB01D"/>
 </part>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="C30" library="GW-devices" deviceset="RF-C" device="RFMD">
+<part name="C30" library="GW-devices" deviceset="RF-C" device="RFMD" value="8pF">
 <attribute name="MFGN" value="Murata"/>
 <attribute name="MFGP" value="GJM1555C1H8R0CB01D"/>
 </part>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
-<part name="R6" library="GW-devices" deviceset="RF-R" device="RFMD">
+<part name="R6" library="GW-devices" deviceset="RF-R" device="RFMD" value="51k">
 <attribute name="MFGN" value="Panasonic"/>
 <attribute name="MFGP" value="ERJ-2GEJ513X"/>
 </part>
-<part name="C21" library="GW-devices" deviceset="RF-C" device="RFMD">
+<part name="C21" library="GW-devices" deviceset="RF-C" device="RFMD" value="8pF">
 <attribute name="MFGN" value="Murata"/>
 <attribute name="MFGP" value="GJM1555C1H8R0CB01D"/>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="U5" library="KW2" deviceset="F-ANTENNA" device=""/>
+<part name="U5" library="KW2" deviceset="F-ANTENNA" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="J3" library="KW2" deviceset="MMCX_VERT" device="">
 <attribute name="MFGN" value="Molex"/>
@@ -2555,48 +2622,106 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="J1" library="KW2" deviceset="DF12_M" device=""/>
-<part name="X1" library="KW2" deviceset="32KHZ" device=""/>
-<part name="C3" library="GW-devices" deviceset="RF-C" device="0402" value="12pF"/>
-<part name="C4" library="GW-devices" deviceset="RF-C" device="0402" value="12pF"/>
+<part name="J1" library="KW2" deviceset="DF12_M" device="">
+<attribute name="MFGN" value="Hirose"/>
+<attribute name="MFGP" value="DF12(3.0)-40DS-0.5V(86)"/>
+</part>
+<part name="X1" library="KW2" deviceset="32KHZ" device="">
+<attribute name="MFGN" value="EPSON"/>
+<attribute name="MFGP" value="FC-135 32.7680KA-A3"/>
+</part>
+<part name="C3" library="GW-devices" deviceset="RF-C" device="0402" value="12pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM1555C1H120JA01D"/>
+</part>
+<part name="C4" library="GW-devices" deviceset="RF-C" device="0402" value="12pF">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM1555C1H120JA01D"/>
+</part>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
-<part name="U4" library="microchip" deviceset="MCP1804T-3302I" device=""/>
+<part name="U4" library="microchip" deviceset="MCP1804T-3302I" device="">
+<attribute name="MFGN" value="Microchip"/>
+<attribute name="MFGP" value="MCP1804T-3302I"/>
+</part>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="GW-devices" deviceset="RF-R" device="RFMD">
+<part name="R7" library="GW-devices" deviceset="RF-R" device="RFMD" value="0">
 <attribute name="MFGN" value="Panasonic"/>
-<attribute name="MFGP" value="ERJ-2GEJ513X"/>
+<attribute name="MFGP" value="ERJ-2GE0R00X"/>
 </part>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
-<part name="J2" library="KW2" deviceset="MOLEX55560-0207" device=""/>
-<part name="R8" library="GW-devices" deviceset="RF-R" device="RFMD">
-<attribute name="MFGN" value="Panasonic"/>
-<attribute name="MFGP" value="ERJ-2GEJ513X"/>
+<part name="J2" library="KW2" deviceset="MOLEX55560-0207" device="">
+<attribute name="MFGN" value="MOLEX"/>
+<attribute name="MFGP" value="55560-0207"/>
 </part>
-<part name="TP1" library="testpad" deviceset="PTR1" device="TP15R"/>
-<part name="TP2" library="testpad" deviceset="PTR1" device="TP15R"/>
-<part name="TP3" library="testpad" deviceset="PTR1" device="TP15R"/>
-<part name="TP4" library="testpad" deviceset="PTR1" device="TP15R"/>
-<part name="TP5" library="testpad" deviceset="PTR1" device="TP15R"/>
-<part name="TP6" library="testpad" deviceset="PTR1" device="TP15R"/>
-<part name="TP7" library="testpad" deviceset="PTR1" device="TP15R"/>
-<part name="TP8" library="testpad" deviceset="PTR1" device="TP15R"/>
-<part name="TP9" library="testpad" deviceset="PTR1" device="TP15R"/>
-<part name="TP10" library="testpad" deviceset="PTR1" device="TP15R"/>
-<part name="TP11" library="testpad" deviceset="PTR1" device="TP15R"/>
-<part name="TP12" library="testpad" deviceset="PTR1" device="TP15R"/>
-<part name="R10" library="GW-devices" deviceset="RF-R" device="0402" value="10K"/>
+<part name="R8" library="GW-devices" deviceset="RF-R" device="RFMD" value="0">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-2GE0R00X"/>
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="TP1" library="testpad" deviceset="PTR1" device="TP15R">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="TP2" library="testpad" deviceset="PTR1" device="TP15R">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="TP3" library="testpad" deviceset="PTR1" device="TP15R">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="TP4" library="testpad" deviceset="PTR1" device="TP15R">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="TP5" library="testpad" deviceset="PTR1" device="TP15R">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="TP6" library="testpad" deviceset="PTR1" device="TP15R">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="TP7" library="testpad" deviceset="PTR1" device="TP15R">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="TP8" library="testpad" deviceset="PTR1" device="TP15R">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="TP9" library="testpad" deviceset="PTR1" device="TP15R">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="TP10" library="testpad" deviceset="PTR1" device="TP15R">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="TP11" library="testpad" deviceset="PTR1" device="TP15R">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="TP12" library="testpad" deviceset="PTR1" device="TP15R">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="R10" library="GW-devices" deviceset="RF-R" device="0402" value="10K">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-2RKF1002X"/>
+</part>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC1" library="microchip" deviceset="25*" device="SN" technology="AA080"/>
+<part name="IC1" library="microchip" deviceset="25*" device="SN" technology="AA080">
+<attribute name="MFGN" value="Microchip"/>
+<attribute name="MFGP" value="25AA640A"/>
+<attribute name="MPN" value="25AA640A"/>
+<attribute name="OC_FARNELL" value=""/>
+<attribute name="OC_NEWARK" value=""/>
+</part>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
-<part name="R11" library="GW-devices" deviceset="RF-R" device="0402" value="10k"/>
+<part name="R11" library="GW-devices" deviceset="RF-R" device="0402" value="10k">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-2RKF1002X"/>
+</part>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
-<part name="R12" library="GW-devices" deviceset="RF-R" device="0402" value="10k"/>
+<part name="R12" library="GW-devices" deviceset="RF-R" device="0402" value="10k">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-2RKF1002X"/>
+</part>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
@@ -2609,27 +2734,78 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFGP" x="-109.22" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="-127" y="33.02" rot="R180"/>
-<instance part="C1" gate="G$1" x="-91.44" y="25.4"/>
-<instance part="C2" gate="G$1" x="-127" y="25.4" rot="R180"/>
-<instance part="C5" gate="G$1" x="2.54" y="76.2" rot="R180"/>
-<instance part="C6" gate="G$1" x="-7.62" y="76.2" rot="R180"/>
-<instance part="C7" gate="G$1" x="-17.78" y="76.2" rot="R180"/>
+<instance part="C1" gate="G$1" x="-91.44" y="25.4">
+<attribute name="MFGN" x="-91.44" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-91.44" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C2" gate="G$1" x="-127" y="25.4" rot="R180">
+<attribute name="MFGN" x="-127" y="25.4" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="-127" y="25.4" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="2.54" y="76.2" rot="R180">
+<attribute name="MFGN" x="2.54" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="2.54" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="-7.62" y="76.2" rot="R180">
+<attribute name="MFGN" x="-7.62" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="-7.62" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="-17.78" y="76.2" rot="R180">
+<attribute name="MFGN" x="-17.78" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="-17.78" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="GND6" gate="1" x="-2.54" y="86.36"/>
-<instance part="C8" gate="G$1" x="-50.8" y="78.74"/>
-<instance part="C9" gate="G$1" x="-40.64" y="78.74"/>
+<instance part="C8" gate="G$1" x="-50.8" y="78.74">
+<attribute name="MFGN" x="-50.8" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-50.8" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C9" gate="G$1" x="-40.64" y="78.74">
+<attribute name="MFGN" x="-40.64" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-40.64" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND7" gate="1" x="-45.72" y="71.12"/>
-<instance part="U1" gate="G$1" x="0" y="0"/>
+<instance part="U1" gate="G$1" x="0" y="0">
+<attribute name="MFGN" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND1" gate="1" x="22.86" y="60.96"/>
 <instance part="+3V1" gate="G$1" x="-25.4" y="109.22"/>
-<instance part="C10" gate="G$1" x="-20.32" y="101.6"/>
-<instance part="C11" gate="G$1" x="-10.16" y="101.6"/>
-<instance part="C12" gate="G$1" x="0" y="101.6"/>
-<instance part="C13" gate="G$1" x="-68.58" y="78.74"/>
-<instance part="C14" gate="G$1" x="-78.74" y="78.74"/>
-<instance part="C15" gate="G$1" x="-88.9" y="78.74"/>
-<instance part="C16" gate="G$1" x="40.64" y="78.74"/>
-<instance part="C17" gate="G$1" x="30.48" y="78.74"/>
-<instance part="C18" gate="G$1" x="20.32" y="78.74"/>
+<instance part="C10" gate="G$1" x="-20.32" y="101.6">
+<attribute name="MFGN" x="-20.32" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-20.32" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C11" gate="G$1" x="-10.16" y="101.6">
+<attribute name="MFGN" x="-10.16" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-10.16" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C12" gate="G$1" x="0" y="101.6">
+<attribute name="MFGN" x="0" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="0" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C13" gate="G$1" x="-68.58" y="78.74">
+<attribute name="MFGN" x="-68.58" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-68.58" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C14" gate="G$1" x="-78.74" y="78.74">
+<attribute name="MFGN" x="-78.74" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-78.74" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C15" gate="G$1" x="-88.9" y="78.74">
+<attribute name="MFGN" x="-88.9" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-88.9" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C16" gate="G$1" x="40.64" y="78.74">
+<attribute name="MFGN" x="40.64" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="40.64" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C17" gate="G$1" x="30.48" y="78.74">
+<attribute name="MFGN" x="30.48" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="30.48" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C18" gate="G$1" x="20.32" y="78.74">
+<attribute name="MFGN" x="20.32" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="20.32" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="-10.16" y="93.98"/>
 <instance part="GND8" gate="1" x="30.48" y="71.12"/>
 <instance part="GND9" gate="1" x="-78.74" y="71.12"/>
@@ -2639,11 +2815,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="+3V4" gate="G$1" x="30.48" y="88.9"/>
 <instance part="GND11" gate="1" x="-93.98" y="17.78"/>
 <instance part="+3V5" gate="G$1" x="15.24" y="68.58"/>
-<instance part="R1" gate="G$1" x="-116.84" y="10.16"/>
+<instance part="R1" gate="G$1" x="-116.84" y="10.16">
+<attribute name="MFGN" x="-116.84" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-116.84" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V6" gate="G$1" x="-147.32" y="22.86"/>
-<instance part="C19" gate="G$1" x="-147.32" y="7.62"/>
+<instance part="C19" gate="G$1" x="-147.32" y="7.62">
+<attribute name="MFGN" x="-147.32" y="7.62" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-147.32" y="7.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND12" gate="1" x="-147.32" y="0"/>
-<instance part="+3V7" gate="G$1" x="-81.28" y="-60.96"/>
 <instance part="GND15" gate="1" x="5.08" y="-73.66"/>
 <instance part="U3" gate="G$1" x="340.36" y="-7.62">
 <attribute name="MFGN" x="340.36" y="-7.62" size="1.778" layer="96" display="off"/>
@@ -2661,13 +2842,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFGN" x="243.84" y="-11.684" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MFGP" x="243.84" y="-11.684" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R4" gate="G$1" x="266.7" y="-12.7">
+<instance part="R4" gate="G$1" x="266.7" y="-12.7" smashed="yes">
 <attribute name="MFGN" x="266.7" y="-12.7" size="1.778" layer="96" display="off"/>
 <attribute name="MFGP" x="266.7" y="-12.7" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="262.89" y="-11.2014" size="1.778" layer="95"/>
+<attribute name="VALUE" x="270.51" y="-16.002" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="266.7" y="-17.78">
+<instance part="R5" gate="G$1" x="266.7" y="-17.78" smashed="yes">
 <attribute name="MFGN" x="266.7" y="-17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MFGP" x="266.7" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="262.89" y="-16.2814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="270.51" y="-21.082" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="304.8" y="-30.48"/>
 <instance part="GND4" gate="1" x="335.28" y="-40.64"/>
@@ -2685,18 +2870,25 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND19" gate="1" x="358.14" y="-53.34"/>
 <instance part="+3V10" gate="G$1" x="342.9" y="-71.12"/>
 <instance part="C25" gate="G$1" x="396.24" y="-17.78" rot="R90">
-<attribute name="NOTES" x="396.24" y="-17.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFGN" x="396.24" y="-17.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFGP" x="396.24" y="-17.78" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L4" gate="G$1" x="393.7" y="-27.94"/>
+<instance part="L4" gate="G$1" x="393.7" y="-27.94">
+<attribute name="MFGN" x="393.7" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="393.7" y="-27.94" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C24" gate="G$1" x="396.24" y="-45.72" rot="R90">
 <attribute name="NOTES" x="396.24" y="-45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C27" gate="G$1" x="396.24" y="25.4" rot="R90">
 <attribute name="NOTES" x="396.24" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L5" gate="G$1" x="393.7" y="15.24"/>
+<instance part="L5" gate="G$1" x="393.7" y="15.24">
+<attribute name="MFGN" x="393.7" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="393.7" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C26" gate="G$1" x="396.24" y="-2.54" rot="R90">
-<attribute name="NOTE" x="396.24" y="-2.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NOTES" x="396.24" y="-2.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND20" gate="1" x="401.32" y="-48.26"/>
 <instance part="GND21" gate="1" x="401.32" y="-20.32"/>
@@ -2711,9 +2903,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFGP" x="360.68" y="30.48" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND24" gate="1" x="363.22" y="22.86"/>
-<instance part="L3" gate="G$1" x="335.28" y="-60.96">
+<instance part="L3" gate="G$1" x="335.28" y="-60.96" smashed="yes">
 <attribute name="MFGN" x="335.28" y="-60.96" size="1.778" layer="96" display="off"/>
 <attribute name="MFGP" x="335.28" y="-60.96" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="337.82" y="-72.39" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="332.486" y="-62.23" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="C29" gate="G$1" x="317.5" y="40.64" rot="R270">
 <attribute name="MFGP" x="317.5" y="40.64" size="1.778" layer="96" rot="R270" display="off"/>
@@ -2737,7 +2931,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </instance>
 <instance part="GND26" gate="1" x="279.4" y="7.62"/>
 <instance part="GND27" gate="1" x="299.72" y="-5.08"/>
-<instance part="U5" gate="G$1" x="381" y="-53.34" rot="MR0"/>
+<instance part="U5" gate="G$1" x="381" y="-53.34" rot="MR0">
+<attribute name="NOTES" x="381" y="-53.34" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="GND28" gate="1" x="373.38" y="-50.8"/>
 <instance part="J3" gate="G$1" x="393.7" y="53.34" rot="R90">
 <attribute name="MFGN" x="393.7" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
@@ -2747,12 +2943,27 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND30" gate="1" x="408.94" y="40.64"/>
 <instance part="GND31" gate="1" x="408.94" y="60.96"/>
 <instance part="GND32" gate="1" x="378.46" y="60.96"/>
-<instance part="J1" gate="G$1" x="223.52" y="83.82" rot="R90"/>
-<instance part="X1" gate="G$1" x="-106.68" y="55.88"/>
-<instance part="C3" gate="G$1" x="-111.76" y="53.34"/>
-<instance part="C4" gate="G$1" x="-101.6" y="53.34"/>
+<instance part="J1" gate="G$1" x="223.52" y="83.82" rot="R90">
+<attribute name="MFGN" x="223.52" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFGP" x="223.52" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="X1" gate="G$1" x="-106.68" y="55.88">
+<attribute name="MFGN" x="-106.68" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-106.68" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="-111.76" y="53.34">
+<attribute name="MFGN" x="-111.76" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-111.76" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C4" gate="G$1" x="-101.6" y="53.34">
+<attribute name="MFGN" x="-101.6" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-101.6" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND33" gate="1" x="-106.68" y="45.72"/>
-<instance part="U4" gate="G$1" x="243.84" y="-63.5"/>
+<instance part="U4" gate="G$1" x="243.84" y="-63.5">
+<attribute name="MFGN" x="243.84" y="-63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="243.84" y="-63.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V9" gate="G$1" x="259.08" y="-55.88" smashed="yes">
 <attribute name="VALUE" x="264.16" y="-55.88" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -2764,37 +2975,77 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFGN" x="322.58" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MFGP" x="322.58" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="326.136" y="35.179" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="321.056" y="40.259" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="326.644" y="38.989" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="+3V13" gate="G$1" x="292.1" y="73.66"/>
 <instance part="GND36" gate="1" x="314.96" y="63.5"/>
-<instance part="J2" gate="G$1" x="314.96" y="83.82" rot="R270"/>
+<instance part="J2" gate="G$1" x="314.96" y="83.82" rot="R270">
+<attribute name="MFGN" x="314.96" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFGP" x="314.96" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="R8" gate="G$1" x="335.28" y="35.56" smashed="yes" rot="R180">
 <attribute name="MFGN" x="335.28" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MFGP" x="335.28" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="338.836" y="35.179" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="333.756" y="40.259" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="339.09" y="38.735" size="1.778" layer="96" rot="R180"/>
+<attribute name="NOTES" x="335.28" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="TP1" gate="G$1" x="276.86" y="144.78" rot="R180"/>
-<instance part="TP2" gate="G$1" x="281.94" y="144.78" rot="R180"/>
-<instance part="TP3" gate="G$1" x="287.02" y="144.78" rot="R180"/>
-<instance part="TP4" gate="G$1" x="292.1" y="144.78" rot="R180"/>
-<instance part="TP5" gate="G$1" x="297.18" y="144.78" rot="R180"/>
-<instance part="TP6" gate="G$1" x="287.02" y="106.68" rot="R180"/>
-<instance part="TP7" gate="G$1" x="292.1" y="106.68" rot="R180"/>
-<instance part="TP8" gate="G$1" x="350.52" y="53.34" rot="R180"/>
-<instance part="TP9" gate="G$1" x="101.6" y="63.5" rot="R180"/>
-<instance part="TP10" gate="G$1" x="106.68" y="63.5" rot="R180"/>
-<instance part="TP11" gate="G$1" x="111.76" y="63.5" rot="R180"/>
-<instance part="TP12" gate="G$1" x="116.84" y="63.5" rot="R180"/>
-<instance part="R10" gate="G$1" x="-147.32" y="38.1" rot="R90"/>
+<instance part="TP1" gate="G$1" x="276.86" y="144.78" rot="R180">
+<attribute name="NOTES" x="276.86" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP2" gate="G$1" x="281.94" y="144.78" rot="R180">
+<attribute name="NOTES" x="281.94" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP3" gate="G$1" x="287.02" y="144.78" rot="R180">
+<attribute name="NOTES" x="287.02" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP4" gate="G$1" x="292.1" y="144.78" rot="R180">
+<attribute name="NOTES" x="292.1" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP5" gate="G$1" x="297.18" y="144.78" rot="R180">
+<attribute name="NOTES" x="297.18" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP6" gate="G$1" x="287.02" y="106.68" rot="R180">
+<attribute name="NOTES" x="287.02" y="106.68" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP7" gate="G$1" x="292.1" y="106.68" rot="R180">
+<attribute name="NOTES" x="292.1" y="106.68" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP8" gate="G$1" x="350.52" y="53.34" rot="R180">
+<attribute name="NOTES" x="350.52" y="53.34" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP9" gate="G$1" x="101.6" y="63.5" rot="R180">
+<attribute name="NOTES" x="101.6" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP10" gate="G$1" x="106.68" y="63.5" rot="R180">
+<attribute name="NOTES" x="106.68" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP11" gate="G$1" x="111.76" y="63.5" rot="R180">
+<attribute name="NOTES" x="111.76" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP12" gate="G$1" x="116.84" y="63.5" rot="R180">
+<attribute name="NOTES" x="116.84" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R10" gate="G$1" x="-147.32" y="38.1" rot="R90">
+<attribute name="MFGN" x="-147.32" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFGP" x="-147.32" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="+3V14" gate="G$1" x="-147.32" y="45.72"/>
-<instance part="IC1" gate="G$1" x="-147.32" y="-81.28"/>
+<instance part="IC1" gate="G$1" x="-147.32" y="-81.28">
+<attribute name="MFGN" x="-147.32" y="-81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-147.32" y="-81.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V15" gate="G$1" x="-139.7" y="-66.04"/>
 <instance part="GND37" gate="1" x="-139.7" y="-93.98"/>
-<instance part="R11" gate="G$1" x="-160.02" y="-63.5" rot="R90"/>
+<instance part="R11" gate="G$1" x="-160.02" y="-63.5" rot="R90">
+<attribute name="MFGN" x="-160.02" y="-63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFGP" x="-160.02" y="-63.5" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="+3V16" gate="G$1" x="-160.02" y="-55.88"/>
-<instance part="R12" gate="G$1" x="-175.26" y="-63.5" rot="R90"/>
+<instance part="R12" gate="G$1" x="-175.26" y="-63.5" rot="R90">
+<attribute name="MFGN" x="-175.26" y="-63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFGP" x="-175.26" y="-63.5" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="+3V17" gate="G$1" x="-175.26" y="-55.88"/>
 </instances>
 <busses>
@@ -2941,6 +3192,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="340.36" y1="17.78" x2="340.36" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="35.56" x2="340.36" y2="40.64" width="0.1524" layer="91"/>
+<junction x="340.36" y="40.64"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="OUT"/>
@@ -3193,6 +3445,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="350.52" y1="30.48" x2="350.52" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="350.52" y1="30.48" x2="355.6" y2="30.48" width="0.1524" layer="91"/>
+<junction x="350.52" y="30.48"/>
 </segment>
 </net>
 <net name="TX_SWITCH" class="0">
@@ -3608,6 +3861,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="297.18" y1="142.24" x2="297.18" y2="121.92" width="0.1524" layer="91"/>
 <junction x="297.18" y="121.92"/>
 <pinref part="R10" gate="G$1" pin="1"/>
+<junction x="-147.32" y="33.02"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -3633,6 +3887,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="335.28" y1="17.78" x2="335.28" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="27.94" x2="330.2" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="27.94" x2="330.2" y2="35.56" width="0.1524" layer="91"/>
+<junction x="330.2" y="35.56"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3833,6 +4088,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="35.56" x2="309.88" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="33.02" x2="317.5" y2="35.56" width="0.1524" layer="91"/>
+<junction x="317.5" y="35.56"/>
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>

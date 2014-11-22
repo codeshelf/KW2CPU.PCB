@@ -318,7 +318,10 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="KW2" deviceset="MOLEX54722-0304" device=""/>
+<part name="U$1" library="KW2" deviceset="MOLEX54722-0304" device="">
+<attribute name="MFGN" value="MOLEX"/>
+<attribute name="MFGP" value="54722-0304"/>
+</part>
 <part name="U$2" library="KW2" deviceset="2X10JTAG" device=""/>
 </parts>
 <sheets>
@@ -326,7 +329,10 @@
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="0" y="-10.16" rot="MR270"/>
+<instance part="U$1" gate="G$1" x="0" y="-10.16" rot="MR270">
+<attribute name="MFGN" x="0" y="-10.16" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MFGP" x="0" y="-10.16" size="1.778" layer="96" rot="MR270" display="off"/>
+</instance>
 <instance part="U$2" gate="G$1" x="55.88" y="-10.16" rot="R270"/>
 </instances>
 <busses>
