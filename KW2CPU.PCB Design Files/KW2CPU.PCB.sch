@@ -204,13 +204,13 @@
 <vertex x="-2.669540625" y="2.2352"/>
 </polygon>
 <smd name="P$1" x="-3.911540625" y="2.680040625" dx="0.332740625" dy="0.332740625" layer="1" roundness="100"/>
-<smd name="P$2" x="-3.6091" y="-3.302" dx="4" dy="1.3" layer="16" rot="R90"/>
+<smd name="P$2" x="-3.6091" y="-3.302" dx="4" dy="1.3" layer="16" rot="R90" stop="no" cream="no"/>
 <rectangle x1="-3.74945625" y1="-4.75541875" x2="2.47354375" y2="-1.75821875" layer="16"/>
 <rectangle x1="2.204303125" y1="-4.7376375" x2="4.703665625" y2="19.0621625" layer="16"/>
 <rectangle x1="-2.678846875" y1="2.2410125" x2="3.846415625" y2="3.0919125" layer="16"/>
 <circle x="-3.500534375" y="-3.27205625" radius="0.4826" width="0" layer="16"/>
 <pad name="P$3" x="-3.500534375" y="-3.27205625" drill="0.7112" diameter="0.9652" thermals="no"/>
-<smd name="P$4" x="-3.6091" y="-3.302" dx="4" dy="1.3" layer="1" rot="R90"/>
+<smd name="P$4" x="-3.6091" y="-3.302" dx="4" dy="1.3" layer="1" rot="R90" stop="no" cream="no"/>
 </package>
 <package name="DF12_M">
 <hole x="-5.8" y="1.5" drill="0.6"/>
@@ -247,7 +247,7 @@
 <smd name="P$4" x="4.25" y="-2.3" dx="2.6" dy="0.3" layer="1" rot="R90"/>
 <smd name="P$1" x="4.75" y="2.3" dx="2.6" dy="0.3" layer="1" rot="R90"/>
 <smd name="P$2" x="4.75" y="-2.3" dx="2.6" dy="0.3" layer="1" rot="R90"/>
-<circle x="4.478425" y="3.206540625" radius="0.269446875" width="0" layer="21"/>
+<circle x="6.383425" y="3.206540625" radius="0.269446875" width="0" layer="21"/>
 <smd name="P$31" x="-2.75" y="2.3" dx="2.6" dy="0.3" layer="1" rot="R90"/>
 <smd name="P$33" x="-3.25" y="2.3" dx="2.6" dy="0.3" layer="1" rot="R90"/>
 <smd name="P$35" x="-3.75" y="2.3" dx="2.6" dy="0.3" layer="1" rot="R90"/>
@@ -497,6 +497,7 @@
 </devices>
 </deviceset>
 <deviceset name="RF6555">
+<description>RF Front End (PA / LNA)</description>
 <gates>
 <gate name="G$1" symbol="RF6555" x="50.8" y="-17.78"/>
 </gates>
@@ -536,6 +537,7 @@
 </devices>
 </deviceset>
 <deviceset name="MMCX_VERT">
+<description>MMCX Antenna Connector</description>
 <gates>
 <gate name="G$1" symbol="MMCX_VERT" x="0" y="0"/>
 </gates>
@@ -572,6 +574,7 @@
 </devices>
 </deviceset>
 <deviceset name="DF12_M">
+<description>Hirose DF12 Male Connector</description>
 <gates>
 <gate name="G$1" symbol="DF12_M" x="-10.16" y="5.08"/>
 </gates>
@@ -628,6 +631,7 @@
 </devices>
 </deviceset>
 <deviceset name="32KHZ">
+<description>32Khz Crystal</description>
 <gates>
 <gate name="G$1" symbol="32KHZSCHEM" x="0" y="0"/>
 </gates>
@@ -644,6 +648,7 @@
 </devices>
 </deviceset>
 <deviceset name="MOLEX55560-0207">
+<description>Flat programming connector</description>
 <gates>
 <gate name="G$1" symbol="MOLEX55560-0207" x="-7.62" y="0"/>
 </gates>
@@ -1496,6 +1501,7 @@ package type ST</description>
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
 <rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
+<circle x="-3.175" y="-2.54" radius="0.508" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2951,13 +2957,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFGN" x="-106.68" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="MFGP" x="-106.68" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C3" gate="G$1" x="-111.76" y="53.34">
-<attribute name="MFGN" x="-111.76" y="53.34" size="1.778" layer="96" display="off"/>
-<attribute name="MFGP" x="-111.76" y="53.34" size="1.778" layer="96" display="off"/>
+<instance part="C3" gate="G$1" x="-114.3" y="53.34">
+<attribute name="MFGN" x="-114.3" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-114.3" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="-101.6" y="53.34">
-<attribute name="MFGN" x="-101.6" y="53.34" size="1.778" layer="96" display="off"/>
-<attribute name="MFGP" x="-101.6" y="53.34" size="1.778" layer="96" display="off"/>
+<instance part="C4" gate="G$1" x="-99.06" y="53.34">
+<attribute name="MFGN" x="-99.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-99.06" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND33" gate="1" x="-106.68" y="45.72"/>
 <instance part="U4" gate="G$1" x="243.84" y="-63.5">
@@ -3500,16 +3506,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-71.12" y1="33.02" x2="-71.12" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="40.64" x2="-116.84" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-116.84" y1="40.64" x2="-116.84" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-116.84" y1="55.88" x2="-111.76" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="55.88" x2="-114.3" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="55.88" x2="-111.76" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XTAL32" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="2"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-101.6" y1="55.88" x2="-66.04" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="55.88" x2="-66.04" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="XTAL32"/>
 <wire x1="-66.04" y1="55.88" x2="-66.04" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="55.88" x2="-101.6" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PTD1/ADC0_SE5B/SPI0_SCK/!UART2_CTS" class="0">
@@ -4133,9 +4141,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="GND33" gate="1" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="-106.68" y1="48.26" x2="-101.6" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="48.26" x2="-99.06" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="-106.68" y1="48.26" x2="-111.76" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="48.26" x2="-114.3" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="GND"/>
@@ -4194,6 +4202,24 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="208,1,-25.4,106.68,+3V3,sup,,,,"/>
+<approved hash="208,1,-45.72,83.82,+3V3,sup,,,,"/>
+<approved hash="208,1,-78.74,83.82,+3V3,sup,,,,"/>
+<approved hash="208,1,30.48,86.36,+3V3,sup,,,,"/>
+<approved hash="208,1,15.24,66.04,+3V3,sup,,,,"/>
+<approved hash="208,1,-147.32,20.32,+3V3,sup,,,,"/>
+<approved hash="208,1,342.9,-73.66,+3V3,sup,,,,"/>
+<approved hash="208,1,340.36,40.64,+3V3,sup,,,,"/>
+<approved hash="208,1,254,-60.96,+3V3,out,,,,"/>
+<approved hash="208,1,259.08,-58.42,+3V3,sup,,,,"/>
+<approved hash="208,1,261.62,60.96,+3V3,sup,,,,"/>
+<approved hash="208,1,292.1,71.12,+3V3,sup,,,,"/>
+<approved hash="208,1,-147.32,43.18,+3V3,sup,,,,"/>
+<approved hash="208,1,-139.7,-68.58,+3V3,sup,,,,"/>
+<approved hash="208,1,-160.02,-58.42,+3V3,sup,,,,"/>
+<approved hash="208,1,-175.26,-58.42,+3V3,sup,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
