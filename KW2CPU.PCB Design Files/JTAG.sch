@@ -145,26 +145,26 @@
 <smd name="P$20" x="-2.25" y="3.5" dx="2.6" dy="0.3" layer="1" rot="R90"/>
 </package>
 <package name="2X10JTAG">
-<pad name="P$1" x="-6.35" y="-1.27" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$2" x="-6.35" y="0" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$3" x="-5.08" y="-1.27" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$4" x="-5.08" y="0" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$5" x="-3.81" y="-1.27" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$6" x="-3.81" y="0" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$7" x="-2.54" y="-1.27" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$8" x="-2.54" y="0" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$9" x="-1.27" y="-1.27" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$10" x="-1.27" y="0" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$11" x="0" y="-1.27" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$12" x="0" y="0" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$13" x="1.27" y="-1.27" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$14" x="1.27" y="0" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$15" x="2.54" y="-1.27" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$16" x="2.54" y="0" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$17" x="3.81" y="-1.27" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$18" x="3.81" y="0" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$19" x="5.08" y="-1.27" drill="0.7" diameter="1" stop="no"/>
-<pad name="P$20" x="5.08" y="0" drill="0.7" diameter="1" stop="no"/>
+<pad name="P$1" x="-6.35" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$2" x="-6.35" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$3" x="-5.08" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$4" x="-5.08" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$5" x="-3.81" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$6" x="-3.81" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$7" x="-2.54" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$8" x="-2.54" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$9" x="-1.27" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$10" x="-1.27" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$11" x="0" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$12" x="0" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$13" x="1.27" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$14" x="1.27" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$15" x="2.54" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$16" x="2.54" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$17" x="3.81" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$18" x="3.81" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$19" x="5.08" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$20" x="5.08" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
 <circle x="-8.874834375" y="-3.766696875" radius="0.5" width="0" layer="21"/>
 <wire x1="-9.42706875" y1="-3.204565625" x2="8.17293125" y2="-3.204565625" width="0.127" layer="21"/>
 <wire x1="8.17293125" y1="-3.204565625" x2="8.17293125" y2="1.895434375" width="0.127" layer="21"/>
