@@ -13,14 +13,16 @@
 2) Top layer - Single-ended: 13.1mil trace width; 50 Ohms
 
 - STACKUP:
-1)  Top silk (white)
-2)  Top mask (black)
-3)  Top (1oz)
-4)  10 mil substrate
-5)  GND (1oz)
-6)  38 mil substrate
-7)  PWR (1oz)
-8)  10 mil substrate
-9)  Bottom signal (1oz)
-10) Bottom mask (black)
-11) Bottom silk (white)
+1)  Top silk (white) 	- KW2CPU.PCB.SST
+2)  Top mask (black) 	- KW2CPU.PCB.SMT
+3)  Top stencil         - KW2CPU.PCB.SPT
+4)  Top signal (1oz) 	- KW2CPU.PCB.LAY1
+5)  10 mil substrate
+6)  GND (1oz) 		- KW2CPU.PCB.LAY2
+7)  38 mil substrate
+8)  PWR (1oz) 		- KW2CPU.PCB.LAY3
+9)  10 mil substrate
+10)  Bottom signal (1oz)- KW2CPU.PCB.LAY4
+11) Bottom stencil      - KW2CPU.PCB.SPB
+12) Bottom mask (black) - KW2CPU.PCB.SMB
+13) Bottom silk (white) - KW2CPU.PCB.SSB

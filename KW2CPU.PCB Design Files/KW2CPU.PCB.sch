@@ -203,13 +203,13 @@
 <vertex x="-2.161540625" y="2.2352"/>
 <vertex x="-2.669540625" y="2.2352"/>
 </polygon>
-<smd name="P$1" x="-3.911540625" y="2.680040625" dx="0.332740625" dy="0.332740625" layer="1" roundness="100"/>
+<smd name="P$1" x="-3.911540625" y="2.680040625" dx="0.332740625" dy="0.332740625" layer="1" roundness="100" stop="no" cream="no"/>
 <smd name="P$2" x="-3.6091" y="-3.302" dx="4" dy="1.3" layer="16" rot="R90" stop="no" cream="no"/>
 <rectangle x1="-3.74945625" y1="-4.75541875" x2="2.47354375" y2="-1.75821875" layer="16"/>
 <rectangle x1="2.204303125" y1="-4.7376375" x2="4.703665625" y2="19.0621625" layer="16"/>
 <rectangle x1="-2.678846875" y1="2.2410125" x2="3.846415625" y2="3.0919125" layer="16"/>
 <circle x="-3.500534375" y="-3.27205625" radius="0.4826" width="0" layer="16"/>
-<pad name="P$3" x="-3.500534375" y="-3.27205625" drill="0.7112" diameter="0.9652" thermals="no"/>
+<pad name="P$3" x="-3.500534375" y="-3.27205625" drill="0.7112" diameter="0.9652" stop="no" thermals="no"/>
 <smd name="P$4" x="-3.6091" y="-3.302" dx="4" dy="1.3" layer="1" rot="R90" stop="no" cream="no"/>
 </package>
 <package name="DF12_M">
@@ -431,6 +431,7 @@
 <pin name="P$38" x="15.24" y="-27.94" length="middle" rot="R180"/>
 <pin name="P$39" x="-15.24" y="-30.48" length="middle"/>
 <pin name="P$40" x="15.24" y="-30.48" length="middle" rot="R180"/>
+<circle x="-12.446" y="20.32" radius="1.016" width="0" layer="95"/>
 </symbol>
 <symbol name="32KHZSCHEM">
 <wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
@@ -2459,7 +2460,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="ZIGBEE" deviceset="MKW21D" device="">
 <attribute name="MFGN" value="Freescale"/>
-<attribute name="MFGP" value="MKW21D256"/>
+<attribute name="MFGP" value="MKW21D256VHA5"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
@@ -2647,7 +2648,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="microchip" deviceset="MCP1804T-3302I" device="">
 <attribute name="MFGN" value="Microchip"/>
-<attribute name="MFGP" value="MCP1804T-3302I"/>
+<attribute name="MFGP" value="MCP1804T-3302I/DB"/>
 </part>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
@@ -2712,7 +2713,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC1" library="microchip" deviceset="25*" device="SN" technology="AA080">
 <attribute name="MFGN" value="Microchip"/>
-<attribute name="MFGP" value="25AA640A"/>
+<attribute name="MFGP" value="25AA640A-I/SN"/>
 <attribute name="MPN" value="25AA640A"/>
 <attribute name="OC_FARNELL" value=""/>
 <attribute name="OC_NEWARK" value=""/>
