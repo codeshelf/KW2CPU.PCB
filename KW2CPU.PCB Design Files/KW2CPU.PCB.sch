@@ -3279,7 +3279,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="231.14" y1="142.24" x2="231.14" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PTC5/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT" class="0">
+<net name="PTC5/LLWU_P9/SPI0_SCK/LPTMR0_ALT2/I2S0_RXDO/CMP0_OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PTC5/LLWU_P9/SPI0_SCK/LPTMR0_ALT2/I2S0_RXDO/CMP0_OUT"/>
 <pinref part="J1" gate="G$1" pin="P$24"/>
