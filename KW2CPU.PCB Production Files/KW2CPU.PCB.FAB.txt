@@ -1,3 +1,5 @@
+KW2CPU.PCB.v1.2
+
 - Material: FR4
 - Thickness: 0.062"
 - Inner layers POSITIVE Gerber files

@@ -2649,6 +2649,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U4" library="microchip" deviceset="MCP1804T-3302I" device="">
 <attribute name="MFGN" value="Microchip"/>
 <attribute name="MFGP" value="MCP1804T-3302I/DB"/>
+<attribute name="NOTES" value="DNP"/>
 </part>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
@@ -2970,6 +2971,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="U4" gate="G$1" x="243.84" y="-63.5">
 <attribute name="MFGN" x="243.84" y="-63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MFGP" x="243.84" y="-63.5" size="1.778" layer="96" display="off"/>
+<attribute name="NOTES" x="243.84" y="-63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="259.08" y="-55.88" smashed="yes">
 <attribute name="VALUE" x="264.16" y="-55.88" size="1.778" layer="96" rot="R90"/>
