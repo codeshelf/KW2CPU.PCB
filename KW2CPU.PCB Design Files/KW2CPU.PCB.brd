@@ -5513,31 +5513,31 @@ design rules under a new name.</description>
 <vertex x="-8.5" y="15"/>
 <vertex x="-8.5" y="-15"/>
 </polygon>
-<via x="28.6" y="0.2" extent="1-16" drill="0.254"/>
-<via x="29.2" y="0.2" extent="1-16" drill="0.254"/>
-<via x="26.6" y="-0.5" extent="1-16" drill="0.254"/>
-<via x="27.3" y="-0.5" extent="1-16" drill="0.254"/>
-<via x="27.9" y="-0.5" extent="1-16" drill="0.254"/>
-<via x="28.6" y="-0.5" extent="1-16" drill="0.254"/>
-<via x="29.2" y="-0.5" extent="1-16" drill="0.254"/>
+<via x="28.55" y="0.25" extent="1-16" drill="0.254"/>
+<via x="29.2" y="0.25" extent="1-16" drill="0.254"/>
+<via x="26.6" y="-0.4" extent="1-16" drill="0.254"/>
+<via x="27.25" y="-0.4" extent="1-16" drill="0.254"/>
+<via x="27.9" y="-0.4" extent="1-16" drill="0.254"/>
+<via x="28.55" y="-0.4" extent="1-16" drill="0.254"/>
+<via x="29.2" y="-0.4" extent="1-16" drill="0.254"/>
 <via x="26.6" y="2.2" extent="1-16" drill="0.254"/>
-<via x="27.3" y="2.2" extent="1-16" drill="0.254"/>
+<via x="27.25" y="2.2" extent="1-16" drill="0.254"/>
 <via x="27.9" y="2.2" extent="1-16" drill="0.254"/>
-<via x="28.6" y="2.2" extent="1-16" drill="0.254"/>
+<via x="28.55" y="2.2" extent="1-16" drill="0.254"/>
 <via x="29.2" y="2.2" extent="1-16" drill="0.254"/>
-<via x="26.6" y="1.5" extent="1-16" drill="0.254"/>
-<via x="27.3" y="1.5" extent="1-16" drill="0.254"/>
-<via x="27.9" y="1.5" extent="1-16" drill="0.254"/>
-<via x="28.6" y="1.5" extent="1-16" drill="0.254"/>
-<via x="29.2" y="1.5" extent="1-16" drill="0.254"/>
+<via x="26.6" y="1.55" extent="1-16" drill="0.254"/>
+<via x="27.25" y="1.55" extent="1-16" drill="0.254"/>
+<via x="27.9" y="1.55" extent="1-16" drill="0.254"/>
+<via x="28.55" y="1.55" extent="1-16" drill="0.254"/>
+<via x="29.2" y="1.55" extent="1-16" drill="0.254"/>
 <via x="26.6" y="0.9" extent="1-16" drill="0.254"/>
-<via x="27.3" y="0.9" extent="1-16" drill="0.254"/>
+<via x="27.25" y="0.9" extent="1-16" drill="0.254"/>
 <via x="27.9" y="0.9" extent="1-16" drill="0.254"/>
-<via x="28.6" y="0.9" extent="1-16" drill="0.254"/>
+<via x="28.55" y="0.9" extent="1-16" drill="0.254"/>
 <via x="29.2" y="0.9" extent="1-16" drill="0.254"/>
-<via x="26.6" y="0.2" extent="1-16" drill="0.254"/>
-<via x="27.3" y="0.2" extent="1-16" drill="0.254"/>
-<via x="27.9" y="0.2" extent="1-16" drill="0.254"/>
+<via x="26.6" y="0.25" extent="1-16" drill="0.254"/>
+<via x="27.25" y="0.25" extent="1-16" drill="0.254"/>
+<via x="27.9" y="0.25" extent="1-16" drill="0.254"/>
 <via x="24.1" y="-7.2" extent="1-16" drill="0.254"/>
 <via x="17.9" y="-8.8" extent="1-16" drill="0.254"/>
 <via x="17.9" y="9.1" extent="1-16" drill="0.254"/>
@@ -5653,7 +5653,7 @@ design rules under a new name.</description>
 <contactref element="RFI3" pad="TP"/>
 <contactref element="RFI4" pad="TP"/>
 <contactref element="RFI5" pad="TP"/>
-<wire x1="26.6" y1="1.5" x2="26.57" y2="1.5" width="0.1778" layer="1"/>
+<wire x1="26.6" y1="1.55" x2="26.57" y2="1.5" width="0.1778" layer="1"/>
 <wire x1="26.57" y1="1.5" x2="26.45" y2="1.62" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$1">
