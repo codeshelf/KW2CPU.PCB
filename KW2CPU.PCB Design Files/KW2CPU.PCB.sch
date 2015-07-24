@@ -11591,6 +11591,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R9" library="GW-devices" deviceset="RF-R" device="RFMD" value="0">
 <attribute name="MFGN" value="Panasonic"/>
 <attribute name="MFGP" value="ERJ-2GE0R00X"/>
+<attribute name="NOTES" value="DNP"/>
 </part>
 <part name="C28" library="GW-devices" deviceset="RF-C" device="RFMD" value="8pF">
 <attribute name="MFGN" value="Murata"/>
@@ -11653,6 +11654,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R7" library="GW-devices" deviceset="RF-R" device="RFMD" value="0">
 <attribute name="MFGN" value="Panasonic"/>
 <attribute name="MFGP" value="ERJ-2GE0R00X"/>
+<attribute name="NOTES" value="DNP"/>
 </part>
 <part name="R8" library="GW-devices" deviceset="RF-R" device="RFMD" value="0">
 <attribute name="MFGN" value="Panasonic"/>
@@ -11765,10 +11767,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NOTES" value="DNP"/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
+<part name="R3" library="GW-devices" deviceset="RF-R" device="RFMD" value="0">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-2GE0R00X"/>
+<attribute name="NOTES" value="DNP"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="337.82" y="172.72" size="1.778" layer="97">Ground points for the RFI foam</text>
 </plain>
 <instances>
 <instance part="X2" gate="G$1" x="-106.68" y="38.1">
@@ -11943,6 +11951,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="R9" gate="G$1" x="350.52" y="40.64" rot="R90">
 <attribute name="MFGN" x="350.52" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MFGP" x="350.52" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NOTES" x="350.52" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C28" gate="G$1" x="378.46" y="30.48" rot="R270">
 <attribute name="MFGN" x="378.46" y="30.48" size="1.778" layer="96" rot="R270" display="off"/>
@@ -12013,6 +12022,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFGP" x="317.5" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="321.056" y="35.179" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="321.564" y="38.989" size="1.778" layer="96" rot="R180"/>
+<attribute name="NOTES" x="317.5" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="332.74" y="35.56" smashed="yes" rot="R180">
 <attribute name="MFGN" x="332.74" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
@@ -12124,6 +12134,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NOTES" x="368.3" y="162.56" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND29" gate="1" x="355.6" y="147.32"/>
+<instance part="R3" gate="G$1" x="325.12" y="60.96" smashed="yes" rot="R270">
+<attribute name="MFGN" x="325.12" y="60.96" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFGP" x="325.12" y="60.96" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="325.501" y="64.516" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="321.945" y="64.77" size="1.778" layer="96" rot="R270"/>
+<attribute name="NOTES" x="325.12" y="60.96" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13277,18 +13294,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="J1" gate="G$1" pin="P$32"/>
 <wire x1="-139.7" y1="114.3" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="114.3" x2="243.84" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="322.58" y1="35.56" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="C_LNA"/>
-<wire x1="335.28" y1="17.78" x2="335.28" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="27.94" x2="325.12" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="27.94" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="35.56" x2="327.66" y2="35.56" width="0.1524" layer="91"/>
-<junction x="325.12" y="35.56"/>
 <wire x1="243.84" y1="114.3" x2="325.12" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="114.3" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="114.3" x2="325.12" y2="68.58" width="0.1524" layer="91"/>
 <junction x="243.84" y="114.3"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="325.12" y1="66.04" x2="325.12" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO1" class="0">
@@ -13299,6 +13309,22 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="J1" gate="G$1" pin="P$30"/>
 <wire x1="-137.16" y1="111.76" x2="241.3" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="111.76" x2="241.3" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="322.58" y1="35.56" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="35.56" x2="327.66" y2="35.56" width="0.1524" layer="91"/>
+<junction x="325.12" y="35.56"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="325.12" y1="55.88" x2="325.12" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="53.34" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="C_LNA"/>
+<wire x1="335.28" y1="17.78" x2="335.28" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="27.94" x2="325.12" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="27.94" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
