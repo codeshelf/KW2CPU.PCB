@@ -13329,10 +13329,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <approved hash="208,1,-25.4,106.68,+3V3,sup,,,,"/>
 <approved hash="208,1,-45.72,83.82,+3V3,sup,,,,"/>
 <approved hash="208,1,-78.74,83.82,+3V3,sup,,,,"/>
-<approved hash="208,1,30.48,86.36,+3V3,sup,,,,"/>
-<approved hash="208,1,15.24,66.04,+3V3,sup,,,,"/>
+<approved hash="208,1,38.1,86.36,+3V3,sup,,,,"/>
+<approved hash="208,1,15.24,63.5,+3V3,sup,,,,"/>
 <approved hash="208,1,-147.32,20.32,+3V3,sup,,,,"/>
 <approved hash="208,1,342.9,-73.66,+3V3,sup,,,,"/>
+<approved hash="208,1,345.44,40.64,+3V3,sup,,,,"/>
 <approved hash="208,1,254,-60.96,+3V3,out,,,,"/>
 <approved hash="208,1,259.08,-58.42,+3V3,sup,,,,"/>
 <approved hash="208,1,261.62,60.96,+3V3,sup,,,,"/>
