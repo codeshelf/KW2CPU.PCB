@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="3.93700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="11" fill="1" visible="yes" active="yes"/>
@@ -3744,12 +3744,12 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*2*15*16)"/>
 <param name="mtCopper" value="0.035559375mm 0.035559375mm 0.035559375mm 0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm 0.035559375mm"/>
 <param name="mtIsolate" value="10mil 38mil 10mil 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 10mil"/>
-<param name="mdWireWire" value="3.5mil"/>
-<param name="mdWirePad" value="3.5mil"/>
-<param name="mdWireVia" value="3.5mil"/>
-<param name="mdPadPad" value="3.5mil"/>
-<param name="mdPadVia" value="3.5mil"/>
-<param name="mdViaVia" value="3.5mil"/>
+<param name="mdWireWire" value="10mil"/>
+<param name="mdWirePad" value="5mil"/>
+<param name="mdWireVia" value="5mil"/>
+<param name="mdPadPad" value="5mil"/>
+<param name="mdPadVia" value="5mil"/>
+<param name="mdViaVia" value="5mil"/>
 <param name="mdSmdPad" value="0mil"/>
 <param name="mdSmdVia" value="0mil"/>
 <param name="mdSmdSmd" value="0mil"/>
@@ -3790,7 +3790,7 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="1mil"/>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
@@ -4335,7 +4335,6 @@ design rules under a new name.</description>
 <element name="R3" library="GW-devices" package="RFMD0402" value="0" x="27.05" y="4.85" smashed="yes" rot="R270">
 <attribute name="MFGN" value="Panasonic" x="27.05" y="4.85" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="ERJ-2GE0R00X" x="27.05" y="4.85" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NOTES" value="DNP" x="27.05" y="4.85" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="26.02" y="5.02" size="0.635" layer="21" ratio="20" rot="R270"/>
 </element>
 </elements>
@@ -4709,43 +4708,43 @@ design rules under a new name.</description>
 <contactref element="U3" pad="P$15"/>
 <contactref element="C25" pad="P$1"/>
 <contactref element="L4" pad="P$1"/>
-<wire x1="30.1" y1="0.2" x2="31.9" y2="0.2" width="0.31241875" layer="1"/>
-<wire x1="31.9" y1="0.2" x2="32.4" y2="-0.3" width="0.31241875" layer="1"/>
+<wire x1="30.1" y1="0.2" x2="31.9" y2="0.2" width="0.381" layer="1"/>
+<wire x1="31.9" y1="0.2" x2="32.4" y2="-0.3" width="0.381" layer="1"/>
 <wire x1="32.4" y1="-1.3" x2="32.4" y2="-1.2555" width="0.332740625" layer="1"/>
 <wire x1="32.4555" y1="-0.3" x2="32.4" y2="-0.3" width="0.332740625" layer="1"/>
-<wire x1="32.4" y1="-0.3" x2="32.4" y2="-1.2555" width="0.31241875" layer="1"/>
-<wire x1="30.1" y1="0.2" x2="30.1" y2="0.18" width="0.31241875" layer="1"/>
+<wire x1="32.4" y1="-0.3" x2="32.4" y2="-1.2555" width="0.381" layer="1"/>
+<wire x1="30.1" y1="0.2" x2="30.1" y2="0.18" width="0.381" layer="1"/>
 </signal>
 <signal name="U.FL.ANT1">
 <contactref element="L4" pad="P$2"/>
 <contactref element="C24" pad="P$1"/>
-<wire x1="32.4" y1="-2.1445" x2="32.4" y2="-3.3" width="0.31241875" layer="1"/>
+<wire x1="32.4" y1="-2.1445" x2="32.4" y2="-3.3" width="0.381" layer="1"/>
 <wire x1="32.4" y1="-3.3" x2="32.4555" y2="-3.3" width="0.31241875" layer="1"/>
 <contactref element="A1" pad="3"/>
 <wire x1="32.4" y1="-8.275" x2="32.4" y2="-8.3" width="0.31241875" layer="1"/>
-<wire x1="32.4" y1="-8.275" x2="32.4" y2="-3.3" width="0.31241875" layer="1"/>
+<wire x1="32.4" y1="-8.275" x2="32.4" y2="-3.3" width="0.381" layer="1"/>
 </signal>
 <signal name="ANT2">
 <contactref element="U3" pad="P$17"/>
 <contactref element="C26" pad="P$1"/>
 <contactref element="L5" pad="P$2"/>
-<wire x1="30.15" y1="1.6" x2="31.9" y2="1.6" width="0.31241875" layer="1"/>
-<wire x1="31.9" y1="1.6" x2="32.4" y2="2.1" width="0.31241875" layer="1"/>
-<wire x1="32.4555" y1="2.1" x2="32.4" y2="2.1" width="0.31241875" layer="1"/>
-<wire x1="32.4" y1="2.1" x2="32.4" y2="2.9555" width="0.31241875" layer="1"/>
+<wire x1="30.15" y1="1.6" x2="31.9" y2="1.6" width="0.381" layer="1"/>
+<wire x1="31.9" y1="1.6" x2="32.4" y2="2.1" width="0.381" layer="1"/>
+<wire x1="32.4555" y1="2.1" x2="32.4" y2="2.1" width="0.381" layer="1"/>
+<wire x1="32.4" y1="2.1" x2="32.4" y2="2.9555" width="0.381" layer="1"/>
 <wire x1="30.15" y1="1.6" x2="30.12" y2="1.6" width="0.31241875" layer="1"/>
 <wire x1="30.12" y1="1.6" x2="30.1" y2="1.62" width="0.31241875" layer="1"/>
 </signal>
 <signal name="U.FL.ANT2">
 <contactref element="L5" pad="P$1"/>
 <contactref element="C27" pad="P$1"/>
-<wire x1="32.4" y1="3.8445" x2="32.4" y2="4.6" width="0.31241875" layer="1"/>
+<wire x1="32.4" y1="3.8445" x2="32.4" y2="4.6" width="0.381" layer="1"/>
 <wire x1="32.4" y1="4.6" x2="32.5" y2="4.6" width="0.31241875" layer="1"/>
 <wire x1="32.4555" y1="4.7" x2="32.4" y2="4.7" width="0.31241875" layer="1"/>
-<wire x1="32.4" y1="4.7" x2="32.4" y2="8.5" width="0.31241875" layer="1"/>
+<wire x1="32.4" y1="4.7" x2="32.4" y2="8.5" width="0.381" layer="1"/>
 <contactref element="A2" pad="3"/>
-<wire x1="32.4" y1="9.675" x2="32.4" y2="8.5" width="0.31241875" layer="1"/>
-<wire x1="32.4" y1="4.6" x2="32.4555" y2="4.6" width="0.31241875" layer="1"/>
+<wire x1="32.4" y1="9.675" x2="32.4" y2="8.5" width="0.381" layer="1"/>
+<wire x1="32.4" y1="4.6" x2="32.4555" y2="4.6" width="0.381" layer="1"/>
 <wire x1="32.4555" y1="4.6" x2="32.4555" y2="4.7" width="0.31241875" layer="1"/>
 </signal>
 <signal name="ANT_A">
@@ -5596,39 +5595,39 @@ design rules under a new name.</description>
 <wire x1="25.7" y1="3.1" x2="26.6" y2="2.2" width="0.1778" layer="1"/>
 <via x="30.6" y="0.9" extent="1-16" drill="0.254"/>
 <via x="31.2" y="0.9" extent="1-16" drill="0.254"/>
-<via x="33.5" y="1.4" extent="1-16" drill="0.254"/>
-<via x="33.5" y="0.4" extent="1-16" drill="0.254"/>
-<via x="33.1" y="3" extent="1-16" drill="0.254"/>
-<via x="33.1" y="3.8" extent="1-16" drill="0.254"/>
-<via x="32.9" y="5.7" extent="1-16" drill="0.254"/>
-<via x="32.9" y="6.3" extent="1-16" drill="0.254"/>
-<via x="32.9" y="6.9" extent="1-16" drill="0.254"/>
-<via x="32.9" y="7.5" extent="1-16" drill="0.254"/>
-<via x="32.9" y="8.1" extent="1-16" drill="0.254"/>
-<via x="32.9" y="8.7" extent="1-16" drill="0.254"/>
-<via x="31.7" y="2.7" extent="1-16" drill="0.254"/>
-<via x="31.7" y="-1.9" extent="1-16" drill="0.254"/>
-<via x="31.7" y="3.9" extent="1-16" drill="0.254"/>
-<via x="31.9" y="5.7" extent="1-16" drill="0.254"/>
-<via x="31.9" y="6.3" extent="1-16" drill="0.254"/>
-<via x="31.9" y="6.9" extent="1-16" drill="0.254"/>
-<via x="31.9" y="7.5" extent="1-16" drill="0.254"/>
-<via x="31.9" y="8.1" extent="1-16" drill="0.254"/>
-<via x="31.9" y="8.7" extent="1-16" drill="0.254"/>
+<via x="33.6" y="1.4" extent="1-16" drill="0.254"/>
+<via x="33.6" y="0.4" extent="1-16" drill="0.254"/>
+<via x="33.2" y="3" extent="1-16" drill="0.254"/>
+<via x="33.2" y="3.8" extent="1-16" drill="0.254"/>
+<via x="33.1" y="5.7" extent="1-16" drill="0.254"/>
+<via x="33.1" y="6.3" extent="1-16" drill="0.254"/>
+<via x="33.1" y="6.9" extent="1-16" drill="0.254"/>
+<via x="33.1" y="7.5" extent="1-16" drill="0.254"/>
+<via x="33.1" y="8.1" extent="1-16" drill="0.254"/>
+<via x="33.1" y="8.7" extent="1-16" drill="0.254"/>
+<via x="31.5" y="2.7" extent="1-16" drill="0.254"/>
+<via x="31.4" y="-1.9" extent="1-16" drill="0.254"/>
+<via x="31.6" y="3.9" extent="1-16" drill="0.254"/>
+<via x="31.7" y="5.7" extent="1-16" drill="0.254"/>
+<via x="31.7" y="6.3" extent="1-16" drill="0.254"/>
+<via x="31.7" y="6.9" extent="1-16" drill="0.254"/>
+<via x="31.7" y="7.5" extent="1-16" drill="0.254"/>
+<via x="31.7" y="8.1" extent="1-16" drill="0.254"/>
+<via x="31.7" y="8.7" extent="1-16" drill="0.254"/>
 <via x="33.9" y="9.4" extent="1-16" drill="0.254"/>
-<via x="31.7" y="-2.5" extent="1-16" drill="0.254"/>
-<via x="33.9" y="-8" extent="1-16" drill="0.254"/>
-<via x="33.3" y="-8" extent="1-16" drill="0.254"/>
-<via x="32.9" y="-7.3" extent="1-16" drill="0.254"/>
-<via x="32.9" y="-4.9" extent="1-16" drill="0.254"/>
-<via x="32.9" y="-5.5" extent="1-16" drill="0.254"/>
-<via x="32.9" y="-6.1" extent="1-16" drill="0.254"/>
-<via x="33.1" y="-1.3" extent="1-16" drill="0.254"/>
-<via x="33.1" y="-2.1" extent="1-16" drill="0.254"/>
-<via x="32.9" y="-4.3" extent="1-16" drill="0.254"/>
-<via x="32.9" y="-6.7" extent="1-16" drill="0.254"/>
+<via x="31.4" y="-2.5" extent="1-16" drill="0.254"/>
+<via x="34" y="-8" extent="1-16" drill="0.254"/>
+<via x="33.4" y="-8" extent="1-16" drill="0.254"/>
+<via x="33.1" y="-7.3" extent="1-16" drill="0.254"/>
+<via x="33.1" y="-4.9" extent="1-16" drill="0.254"/>
+<via x="33.1" y="-5.5" extent="1-16" drill="0.254"/>
+<via x="33.1" y="-6.1" extent="1-16" drill="0.254"/>
+<via x="33.4" y="-1.3" extent="1-16" drill="0.254"/>
+<via x="33.5" y="-2.1" extent="1-16" drill="0.254"/>
+<via x="33.1" y="-4.3" extent="1-16" drill="0.254"/>
+<via x="33.1" y="-6.7" extent="1-16" drill="0.254"/>
 <via x="33.3" y="9.4" extent="1-16" drill="0.254"/>
-<via x="31.7" y="3.3" extent="1-16" drill="0.254"/>
+<via x="31.5" y="3.3" extent="1-16" drill="0.254"/>
 <via x="30.9" y="9.4" extent="1-16" drill="0.254"/>
 <via x="31.5" y="9.4" extent="1-16" drill="0.254"/>
 <via x="31.6" y="12.8" extent="1-16" drill="0.254"/>
@@ -5637,7 +5636,7 @@ design rules under a new name.</description>
 <via x="34.4" y="12.8" extent="1-16" drill="0.254"/>
 <via x="33.8" y="12.8" extent="1-16" drill="0.254"/>
 <via x="33.2" y="12.8" extent="1-16" drill="0.254"/>
-<via x="31.7" y="-1.3" extent="1-16" drill="0.254"/>
+<via x="31.4" y="-1.3" extent="1-16" drill="0.254"/>
 <via x="31.8" y="0.9" extent="1-16" drill="0.254"/>
 <via x="3.2" y="5" extent="1-16" drill="0.254" diameter="0.4572"/>
 <contactref element="R6" pad="P$2"/>
@@ -5648,14 +5647,14 @@ design rules under a new name.</description>
 <contactref element="A2" pad="1"/>
 <contactref element="A1" pad="1"/>
 <contactref element="A1" pad="2"/>
-<via x="31.9" y="-4.3" extent="1-16" drill="0.254"/>
-<via x="31.9" y="-4.9" extent="1-16" drill="0.254"/>
-<via x="31.9" y="-5.5" extent="1-16" drill="0.254"/>
-<via x="31.9" y="-6.1" extent="1-16" drill="0.254"/>
-<via x="31.9" y="-6.7" extent="1-16" drill="0.254"/>
-<via x="31.9" y="-7.3" extent="1-16" drill="0.254"/>
-<via x="30.9" y="-8" extent="1-16" drill="0.254"/>
-<via x="31.5" y="-8" extent="1-16" drill="0.254"/>
+<via x="31.7" y="-4.3" extent="1-16" drill="0.254"/>
+<via x="31.7" y="-4.9" extent="1-16" drill="0.254"/>
+<via x="31.7" y="-5.5" extent="1-16" drill="0.254"/>
+<via x="31.7" y="-6.1" extent="1-16" drill="0.254"/>
+<via x="31.7" y="-6.7" extent="1-16" drill="0.254"/>
+<via x="31.7" y="-7.3" extent="1-16" drill="0.254"/>
+<via x="30.8" y="-8" extent="1-16" drill="0.254"/>
+<via x="31.4" y="-8" extent="1-16" drill="0.254"/>
 <via x="31.6" y="-11.4" extent="1-16" drill="0.254"/>
 <via x="30.4" y="-11.4" extent="1-16" drill="0.254"/>
 <via x="31" y="-11.4" extent="1-16" drill="0.254"/>
@@ -5664,11 +5663,11 @@ design rules under a new name.</description>
 <via x="33.3" y="-11.4" extent="1-16" drill="0.254"/>
 <via x="27" y="7.9" extent="1-16" drill="0.254"/>
 <via x="28.5" y="6.3" extent="1-16" drill="0.254"/>
-<via x="31.8" y="5.1" extent="1-16" drill="0.254"/>
+<via x="31.7" y="5.1" extent="1-16" drill="0.254"/>
 <via x="31.7" y="4.5" extent="1-16" drill="0.254"/>
 <via x="31.7" y="-3.7" extent="1-16" drill="0.254"/>
 <via x="31.7" y="-3.1" extent="1-16" drill="0.254"/>
-<via x="31.7" y="-0.7" extent="1-16" drill="0.254"/>
+<via x="31.4" y="-0.7" extent="1-16" drill="0.254"/>
 <contactref element="RFI1" pad="TP"/>
 <contactref element="RFI6" pad="TP"/>
 <contactref element="RFI2" pad="TP"/>
@@ -5677,10 +5676,11 @@ design rules under a new name.</description>
 <contactref element="RFI5" pad="TP"/>
 <wire x1="26.6" y1="1.55" x2="26.57" y2="1.5" width="0.1778" layer="1"/>
 <wire x1="26.57" y1="1.5" x2="26.45" y2="1.62" width="0.1778" layer="1"/>
-<via x="32.3" y="0.5" extent="1-16" drill="0.254"/>
-<via x="32.3" y="1.3" extent="1-16" drill="0.254"/>
-<via x="32.9" y="1.4" extent="1-16" drill="0.254"/>
-<via x="32.9" y="0.4" extent="1-16" drill="0.254"/>
+<via x="32.5" y="0.6" extent="1-16" drill="0.254"/>
+<via x="32.5" y="1.2" extent="1-16" drill="0.254"/>
+<via x="33" y="1.4" extent="1-16" drill="0.254"/>
+<via x="33" y="0.4" extent="1-16" drill="0.254"/>
+<via x="20.8" y="1.1" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="N$1">
 <contactref element="R11" pad="1"/>

@@ -11770,7 +11770,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R3" library="GW-devices" deviceset="RF-R" device="RFMD" value="0">
 <attribute name="MFGN" value="Panasonic"/>
 <attribute name="MFGP" value="ERJ-2GE0R00X"/>
-<attribute name="NOTES" value="DNP"/>
 </part>
 </parts>
 <sheets>
@@ -12139,7 +12138,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFGP" x="325.12" y="60.96" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="325.501" y="64.516" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="321.945" y="64.77" size="1.778" layer="96" rot="R270"/>
-<attribute name="NOTES" x="325.12" y="60.96" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 </instances>
 <busses>
