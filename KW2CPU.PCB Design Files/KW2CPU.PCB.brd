@@ -34,35 +34,35 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -74,55 +74,55 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
-<layer number="105" name="tPlate" color="14" fill="6" visible="no" active="yes"/>
-<layer number="106" name="bPlate" color="14" fill="3" visible="no" active="yes"/>
-<layer number="107" name="Crop" color="11" fill="1" visible="no" active="yes"/>
-<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="118" name="Rect_Pads" color="4" fill="1" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="14" fill="6" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="14" fill="3" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
-<layer number="205" name="ERB-TOP" color="9" fill="1" visible="no" active="yes"/>
-<layer number="206" name="ERB-IN" color="11" fill="1" visible="no" active="yes"/>
-<layer number="207" name="ERB-BOT" color="12" fill="1" visible="no" active="yes"/>
-<layer number="208" name="ERB-PADS-VIAS" color="10" fill="11" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="ERB-TOP" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="ERB-IN" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="ERB-BOT" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="ERB-PADS-VIAS" color="10" fill="11" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -131,12 +131,12 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="255" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="255" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -311,6 +311,7 @@
 <text x="2.036003125" y="4.75665625" size="1.016" layer="22" font="vector" ratio="15" rot="SMR0">JTAG</text>
 <hole x="-1" y="-12.8" drill="3.2"/>
 <hole x="-1" y="12.8" drill="3.2"/>
+<text x="28" y="11" size="0.8128" layer="22" font="vector" ratio="12" rot="MR0">7/31/15</text>
 </plain>
 <libraries>
 <library name="KW2">
@@ -354,6 +355,7 @@
 <smd name="P$3" x="-2.2" y="0.72" dx="0.4" dy="0.32" layer="1"/>
 <smd name="P$2" x="-2.2" y="1.44" dx="0.4" dy="0.32" layer="1"/>
 <circle x="-3.129265625" y="2.2306625" radius="0.254" width="0" layer="21"/>
+<text x="-2.54" y="3.81" size="1.27" layer="21">&gt;NAME</text>
 </package>
 <package name="DF12_M">
 <hole x="-5.8" y="1.5" drill="0.6"/>
@@ -401,6 +403,11 @@
 <smd name="P$36" x="-3.75" y="-2.3" dx="2.6" dy="0.3" layer="1" rot="R90"/>
 <smd name="P$38" x="-4.25" y="-2.3" dx="2.6" dy="0.3" layer="1" rot="R90"/>
 <smd name="P$40" x="-4.75" y="-2.3" dx="2.6" dy="0.3" layer="1" rot="R90"/>
+<hole x="11.8" y="4.24" drill="3.048"/>
+<hole x="-11.8" y="4.24" drill="3.048"/>
+<rectangle x1="-7.62" y1="-1.27" x2="7.62" y2="1.27" layer="39"/>
+<rectangle x1="-7.62" y1="-1.27" x2="7.62" y2="1.27" layer="41"/>
+<text x="-3.81" y="5.08" size="1.27" layer="21">&gt;NAME</text>
 </package>
 <package name="32KHZSMD">
 <wire x1="0.6" y1="-0.8" x2="-0.6" y2="-0.8" width="0.127" layer="21"/>
@@ -3790,7 +3797,7 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="1mil"/>
+<param name="mlMinStopFrame" value="4mil"/>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
@@ -3921,7 +3928,7 @@ design rules under a new name.</description>
 <attribute name="MFGP" value="GRM1555C1H9R0DA01D" x="17.9" y="7.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C5" library="GW-devices" package="C0402" value="0.1uF" x="22.2" y="3" smashed="yes">
-<attribute name="NAME" x="20.69620625" y="3.4922375" size="0.635" layer="21" font="vector" ratio="20"/>
+<attribute name="NAME" x="20.69620625" y="3.5922375" size="0.635" layer="21" font="vector" ratio="20"/>
 <attribute name="MFGN" value="Murata" x="22.2" y="3" size="1.778" layer="27" display="off"/>
 <attribute name="MFGP" value="GRM155R71C104KA88D" x="22.2" y="3" size="1.778" layer="27" display="off"/>
 </element>
@@ -4005,19 +4012,20 @@ design rules under a new name.</description>
 <attribute name="MFGN" value="Murata" x="7.6" y="-4.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="GRM155R71C104KA88D" x="7.6" y="-4.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U3" library="KW2" package="RF6555" value="RF6555" x="27.9" y="0.9">
+<element name="U3" library="KW2" package="RF6555" value="RF6555" x="27.9" y="0.9" smashed="yes">
 <attribute name="MFGN" value="RFMD" x="27.9" y="0.9" size="1.778" layer="27" display="off"/>
 <attribute name="MFGP" value="RF6555" x="27.9" y="0.9" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="28.96" y="-2.39" size="0.635" layer="21" font="vector" ratio="20"/>
 </element>
 <element name="L1" library="GW-devices" package="RF-L0201" value="1nH" x="21.8" y="0.1016" smashed="yes" rot="R270">
 <attribute name="MFGN" value="Murata" x="21.8" y="0.1016" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="LQP03TN1N0B02" x="21.8" y="0.1016" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="20.360703125" y="-0.273484375" size="0.635" layer="21" font="vector" ratio="20"/>
+<attribute name="NAME" x="20.260703125" y="-0.073484375" size="0.635" layer="21" font="vector" ratio="20"/>
 </element>
 <element name="L2" library="GW-devices" package="RF-L0201" value="1nH" x="21.8" y="-0.4064" smashed="yes" rot="R270">
 <attribute name="MFGN" value="Murata" x="21.8" y="-0.4064" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="LQP03TN1N0B02" x="21.8" y="-0.4064" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="20.333334375" y="-0.74989375" size="0.635" layer="21" font="vector" ratio="20"/>
+<attribute name="NAME" x="20.533334375" y="-1.34989375" size="0.635" layer="21" font="vector" ratio="20"/>
 </element>
 <element name="C20" library="GW-devices" package="RF-L0201" value="1.2pF" x="23.4" y="-0.15" smashed="yes">
 <attribute name="MFGN" value="TDK" x="23.4" y="-0.15" size="1.778" layer="27" display="off"/>
@@ -4049,11 +4057,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.037075" y="-1.390171875" size="0.635" layer="21" font="vector" ratio="20"/>
 <attribute name="MFGN" value="Johanson" x="32.9" y="-0.3" size="1.778" layer="27" display="off"/>
 <attribute name="MFGP" value="500R07S0R2BV4T" x="32.9" y="-0.3" size="1.778" layer="27" display="off"/>
+<attribute name="NOTES" value="DNP" x="32.9" y="-0.3" size="1.778" layer="27" display="off"/>
 </element>
 <element name="L4" library="GW-devices" package="RFMD0402" value="1.2nH" x="32.4" y="-1.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="31.295053125" y="-0.991015625" size="0.635" layer="21" font="vector" ratio="20" rot="R270"/>
 <attribute name="MFGN" value="Murata" x="32.4" y="-1.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value=" LQP15MN2N2B02D" x="32.4" y="-1.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NOTES" value="DNP" x="32.4" y="-1.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C24" library="GW-devices" package="RFMD0402" value="0.5pF" x="32.9" y="-3.3" smashed="yes">
 <attribute name="NOTES" value="DNP" x="32.9" y="-3.3" size="1.778" layer="27" display="off"/>
@@ -4067,6 +4077,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.27785625" y="4.037340625" size="0.635" layer="21" font="vector" ratio="20" rot="R270"/>
 <attribute name="MFGN" value="Panasonic" x="32.4" y="3.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="ERJ-2GE0R00X" x="32.4" y="3.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NOTES" value="DNP" x="32.4" y="3.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C26" library="GW-devices" package="RFMD0402" value="1.0pF" x="32.9" y="2.1" smashed="yes">
 <attribute name="NOTES" value="DNP" x="32.9" y="2.1" size="1.778" layer="27" display="off"/>
@@ -4075,42 +4086,43 @@ design rules under a new name.</description>
 <element name="R9" library="GW-devices" package="RFMD0402" value="0" x="29.7" y="6.6" smashed="yes" rot="R90">
 <attribute name="MFGN" value="Panasonic" x="29.7" y="6.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="ERJ-2GE0R00X" x="29.7" y="6.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="30.0143625" y="7.475453125" size="0.635" layer="21" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="30.0143625" y="7.775453125" size="0.635" layer="21" font="vector" ratio="20" rot="R90"/>
 <attribute name="NOTES" value="DNP" x="29.7" y="6.6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C28" library="GW-devices" package="RFMD0402" value="8pF" x="30.3" y="5.4" smashed="yes" rot="R180">
 <attribute name="MFGN" value="Murata" x="30.3" y="5.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFGP" value="GJM1555C1H8R0CB01D" x="30.3" y="5.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="30.45993125" y="7.5977" size="0.635" layer="21" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="30.0023" y="4.25993125" size="0.635" layer="21" font="vector" ratio="20"/>
 </element>
 <element name="L3" library="GW-devices" package="RFMD0402" value="100Ohm Ferrite" x="27.2" y="-4.3" smashed="yes" rot="R270">
 <attribute name="MFGN" value="Murata" x="27.2" y="-4.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="BLM15AG100SN1D" x="27.2" y="-4.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="27.810665625" y="-5.571196875" size="0.635" layer="21" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="26.910665625" y="-5.671196875" size="0.635" layer="21" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="C29" library="GW-devices" package="RFMD0402" value="8pF" x="28.65" y="5.4" smashed="yes">
 <attribute name="MFGP" value="GJM1555C1H8R0CB01D" x="28.65" y="5.4" size="1.778" layer="27" display="off"/>
 <attribute name="MFGN" value="Murata" x="28.65" y="5.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="27.970459375" y="4.276240625" size="0.635" layer="21" font="vector" ratio="20"/>
+<attribute name="NAME" x="27.870459375" y="4.276240625" size="0.635" layer="21" font="vector" ratio="20"/>
 </element>
 <element name="C30" library="GW-devices" package="RFMD0402" value="8pF" x="24.8" y="5.7" smashed="yes" rot="R270">
 <attribute name="MFGN" value="Murata" x="24.8" y="5.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="GJM1555C1H8R0CB01D" x="24.8" y="5.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="24.540921875" y="8.296825" size="0.635" layer="21" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="24.340921875" y="8.396825" size="0.635" layer="21" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="R6" library="GW-devices" package="RFMD0402" value="51k" x="24.9" y="2.1" smashed="yes" rot="R270">
 <attribute name="MFGN" value="Panasonic" x="24.9" y="2.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="ERJ-2GEJ513X" x="24.9" y="2.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25.140796875" y="3.705115625" size="0.635" layer="21" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="25.240796875" y="3.705115625" size="0.635" layer="21" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C21" library="GW-devices" package="RFMD0402" value="8pF" x="24" y="3" smashed="yes" rot="R90">
 <attribute name="MFGN" value="Murata" x="24" y="3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="GJM1555C1H8R0CB01D" x="24" y="3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22.85176875" y="5.4221875" size="0.635" layer="21" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="22.85176875" y="5.5221875" size="0.635" layer="21" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="J1" library="KW2" package="DF12_M" value="DF12_M" x="-1" y="-0.25" rot="R90">
+<element name="J1" library="KW2" package="DF12_M" value="DF12_M" x="-1" y="-0.25" smashed="yes" rot="R90">
 <attribute name="MFGN" value="Hirose" x="-1" y="-0.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="DF12(3.0)-40DS-0.5V(86)" x="-1" y="-0.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-4.88" y="-1.06" size="0.635" layer="21" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="X1" library="KW2" package="32KHZSMD" value="32KHZ" x="12.8" y="-7.5" smashed="yes">
 <attribute name="NAME" x="11.403" y="-6.23" size="0.635" layer="21" font="vector" ratio="20"/>
@@ -4141,13 +4153,13 @@ design rules under a new name.</description>
 <element name="R7" library="GW-devices" package="RFMD0402" value="0" x="26.6" y="6.6" smashed="yes" rot="R90">
 <attribute name="MFGN" value="Panasonic" x="26.6" y="6.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="ERJ-2GE0R00X" x="26.6" y="6.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="26.931565625" y="7.482875" size="0.635" layer="21" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="26.931565625" y="7.682875" size="0.635" layer="21" font="vector" ratio="20" rot="R90"/>
 <attribute name="NOTES" value="DNP" x="26.6" y="6.6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R8" library="GW-devices" package="RFMD0402" value="0" x="27.7" y="6.6" smashed="yes" rot="R270">
 <attribute name="MFGN" value="Panasonic" x="27.7" y="6.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="ERJ-2GE0R00X" x="27.7" y="6.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="27.964125" y="7.47075625" size="0.635" layer="21" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="28.064125" y="7.67075625" size="0.635" layer="21" font="vector" ratio="20" rot="R90"/>
 <attribute name="NOTES" value="DNP" x="27.7" y="6.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TP1" library="testpad" package="TP15R" value="PTR1TP15R" x="16" y="-10" smashed="yes" rot="MR0">
@@ -4192,11 +4204,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="23.135" y="-9.362" size="0.0254" layer="28" rot="MR0"/>
 <attribute name="NOTES" value="DNP" x="22.5" y="-8.6" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="TP8" library="testpad" package="TP15R" value="PTR1TP15R" x="27" y="10.5" smashed="yes" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="27" y="7.96" size="1" layer="38" rot="MR0"/>
-<attribute name="NAME" x="27.8465625" y="11.43764375" size="0.635" layer="22" font="vector" ratio="20" rot="MR0"/>
-<attribute name="VALUE" x="27.635" y="9.738" size="0.0254" layer="28" rot="MR0"/>
-<attribute name="NOTES" value="DNP" x="27" y="10.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP8" library="testpad" package="TP15R" value="PTR1TP15R" x="25.1" y="7.3" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="25.1" y="4.76" size="1" layer="38" rot="MR0"/>
+<attribute name="NAME" x="25.9465625" y="8.23764375" size="0.635" layer="22" font="vector" ratio="20" rot="MR0"/>
+<attribute name="VALUE" x="25.735" y="6.538" size="0.0254" layer="28" rot="MR0"/>
+<attribute name="NOTES" value="DNP" x="25.1" y="7.3" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="TP9" library="testpad" package="TP15R" value="PTR1TP15R" x="-3.6" y="10.3" smashed="yes" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="-3.6" y="7.76" size="1" layer="38" rot="MR0"/>
@@ -4247,12 +4259,16 @@ design rules under a new name.</description>
 <attribute name="MFGP" value="ERJ-2RKF1002X" x="15.3" y="11.6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="A1" library="adafruit" package="U.FL" value="" x="32.4" y="-9.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.42" y="-11.99" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="NAME" x="33.52" y="-11.89" size="1.016" layer="21" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="35.575" y="-11.07" size="0.8128" layer="27" ratio="10" rot="R90"/>
+<attribute name="MFGN" value="Hirose" x="32.4" y="-9.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGP" value="N.FL-R-SMT-1(10)" x="32.4" y="-9.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="A2" library="adafruit" package="U.FL" value="" x="32.4" y="11.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.53" y="13.19" size="1.016" layer="25" ratio="18"/>
+<attribute name="NAME" x="31.53" y="13.19" size="1.016" layer="21" font="vector" ratio="20"/>
 <attribute name="VALUE" x="29.225" y="12.47" size="0.8128" layer="27" ratio="10" rot="R270"/>
+<attribute name="MFGN" value="Hirose" x="32.4" y="11.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFGP" value="N.FL-R-SMT-1(10)" x="32.4" y="11.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TP13" library="testpad" package="TP15R" value="PTR1TP15R" x="-2.3" y="0.1" smashed="yes" rot="MR0">
 <attribute name="NOTES" value="DNP" x="-2.3" y="0.1" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -4288,54 +4304,54 @@ design rules under a new name.</description>
 <element name="R2" library="GW-devices" package="RFMD0402" value="0" x="25.7" y="5.7" smashed="yes" rot="R270">
 <attribute name="MFGN" value="Panasonic" x="25.7" y="5.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="ERJ-2GE0R00X" x="25.7" y="5.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25.37" y="7.67" size="0.635" layer="21" ratio="20" rot="R270"/>
+<attribute name="NAME" x="25.37" y="7.87" size="0.635" layer="21" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="TP17" library="testpad" package="TP15R" value="PTR1TP15R" x="-6.5" y="-7.5" smashed="yes" rot="MR0">
 <attribute name="NOTES" value="DNP" x="-6.5" y="-7.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-6.5" y="-10.04" size="1" layer="38" rot="MR0"/>
-<attribute name="NAME" x="-3.4" y="-7.8" size="0.635" layer="26" ratio="20" rot="MR0"/>
+<attribute name="NAME" x="-3.4" y="-7.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="-5.865" y="-8.262" size="0.0254" layer="28" rot="MR0"/>
 </element>
 <element name="RFI1" library="testpad" package="TP15R" value="PTR1TP15R" x="25.5" y="13.5" smashed="yes">
 <attribute name="NOTES" value="DNP" x="25.5" y="13.5" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="25.5" y="10.96" size="1" layer="37"/>
-<attribute name="NAME" x="24.6499" y="11.9001" size="0.635" layer="25" ratio="20"/>
+<attribute name="NAME" x="24.6499" y="11.9001" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="24.865" y="12.738" size="0.0254" layer="27"/>
 </element>
 <element name="RFI2" library="testpad" package="TP15R" value="PTR1TP15R" x="22" y="13.5" smashed="yes">
 <attribute name="NOTES" value="DNP" x="22" y="13.5" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="22" y="10.96" size="1" layer="37"/>
-<attribute name="NAME" x="21.0499" y="11.9001" size="0.635" layer="25" ratio="20"/>
+<attribute name="NAME" x="21.0499" y="11.9001" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="21.365" y="12.738" size="0.0254" layer="27"/>
 </element>
 <element name="RFI3" library="testpad" package="TP15R" value="PTR1TP15R" x="25.5" y="-13.5" smashed="yes">
 <attribute name="NOTES" value="DNP" x="25.5" y="-13.5" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="25.5" y="-16.04" size="1" layer="37"/>
-<attribute name="NAME" x="24.7499" y="-12.6999" size="0.635" layer="25" ratio="20"/>
+<attribute name="NAME" x="24.7499" y="-12.6999" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="24.865" y="-14.262" size="0.0254" layer="27"/>
 </element>
 <element name="RFI4" library="testpad" package="TP15R" value="PTR1TP15R" x="22" y="-13.5" smashed="yes">
 <attribute name="NOTES" value="DNP" x="22" y="-13.5" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="22" y="-16.04" size="1" layer="37"/>
-<attribute name="NAME" x="21.2499" y="-12.6999" size="0.635" layer="25" ratio="20"/>
+<attribute name="NAME" x="21.2499" y="-12.6999" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="21.365" y="-14.262" size="0.0254" layer="27"/>
 </element>
 <element name="RFI5" library="testpad" package="TP15R" value="PTR1TP15R" x="-7" y="10.5" smashed="yes">
 <attribute name="NOTES" value="DNP" x="-7" y="10.5" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-7" y="7.96" size="1" layer="37"/>
-<attribute name="NAME" x="-7.9501" y="8.8001" size="0.635" layer="25" ratio="20"/>
+<attribute name="NAME" x="-7.9501" y="8.8001" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="-7.635" y="9.738" size="0.0254" layer="27"/>
 </element>
 <element name="RFI6" library="testpad" package="TP15R" value="PTR1TP15R" x="-7" y="-10.5" smashed="yes">
 <attribute name="NOTES" value="DNP" x="-7" y="-10.5" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="-7" y="-13.04" size="1" layer="37"/>
-<attribute name="NAME" x="-7.8501" y="-9.3999" size="0.635" layer="25" ratio="20"/>
+<attribute name="NAME" x="-7.8501" y="-9.3999" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="-7.635" y="-11.262" size="0.0254" layer="27"/>
 </element>
 <element name="R3" library="GW-devices" package="RFMD0402" value="0" x="27.05" y="4.85" smashed="yes" rot="R270">
 <attribute name="MFGN" value="Panasonic" x="27.05" y="4.85" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="ERJ-2GE0R00X" x="27.05" y="4.85" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="26.02" y="5.02" size="0.635" layer="21" ratio="20" rot="R270"/>
+<attribute name="NAME" x="26.58" y="3.68" size="0.635" layer="21" font="vector" ratio="20" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -4763,11 +4779,6 @@ design rules under a new name.</description>
 <wire x1="20.6" y1="6.9" x2="29.5" y2="6.9" width="0.1778" layer="15"/>
 <wire x1="29.5" y1="6.9" x2="29.7" y2="7.1" width="0.1778" layer="15"/>
 <wire x1="29.7" y1="7.1" x2="29.7" y2="8.1" width="0.1778" layer="15"/>
-<contactref element="TP8" pad="TP"/>
-<wire x1="27" y1="10.5" x2="27" y2="9.5" width="0.1778" layer="16"/>
-<wire x1="27" y1="9.5" x2="27.5" y2="9" width="0.1778" layer="16"/>
-<wire x1="27.5" y1="9" x2="28.8" y2="9" width="0.1778" layer="16"/>
-<wire x1="28.8" y1="9" x2="29.7" y2="8.1" width="0.1778" layer="16"/>
 </signal>
 <signal name="ANTSEL">
 <contactref element="R9" pad="P$1"/>
@@ -4789,6 +4800,12 @@ design rules under a new name.</description>
 <wire x1="28.7" y1="7.1555" x2="29.7" y2="6.1555" width="0.1778" layer="1"/>
 <wire x1="29.3" y1="3.3" x2="29.3" y2="3.14" width="0.1778" layer="1"/>
 <wire x1="29.3" y1="3.14" x2="29.34" y2="3.1" width="0.1778" layer="1"/>
+<contactref element="TP8" pad="TP"/>
+<via x="26.4" y="9.1" extent="1-16" drill="0.254"/>
+<wire x1="26.4" y1="9.1" x2="26.4" y2="8.6" width="0.1778" layer="1"/>
+<wire x1="26.4" y1="8.6" x2="26.5" y2="8.5" width="0.1778" layer="1"/>
+<wire x1="25.1" y1="7.3" x2="25.1" y2="7.8" width="0.1778" layer="16"/>
+<wire x1="25.1" y1="7.8" x2="26.4" y2="9.1" width="0.1778" layer="16"/>
 </signal>
 <signal name="TX_SWITCH">
 <contactref element="U3" pad="P$24"/>
