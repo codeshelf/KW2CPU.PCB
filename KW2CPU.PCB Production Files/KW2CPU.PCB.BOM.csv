@@ -1,37 +1,36 @@
-"Qty";"Value";"Device";"Package";"Parts";"Description";"MF";"MFGN";"MFGP";"MPN";"NOTES";"OC_FARNELL";"OC_NEWARK";"TP_SIGNAL_NAME";
-"2";"";"ANTENNA_U.FL";"U.FL";"A1, A2";"U.FL Antenna Connector";"";"Hirose";"N.FL-R-SMT-1(10)";"";"";"";"";"";
-"1";"";"MCP1804T-3302I";"SOT223";"U4";"VOLTAGE REGULATOR";"";"Microchip";"MCP1804T-3302I/DB";"MCP1804T-3302I";"DNP";"";"";"";
-"2";"0";"RF-R";"RF-L0201";"R4, R5";"RF resistor pads for FSL reference design";"";"Panasonic";"ERJ-1GN0R00C";"";"";"";"";"";
-"2";"0";"RF-RRFMD";"RFMD0402";"R2, R3";"RF resistor pads for FSL reference design";"";"Panasonic";"ERJ-2GE0R00X";"";"";"";"";"";
-"3";"0";"RF-RRFMD";"RFMD0402";"R7, R8, R9";"RF resistor pads for FSL reference design";"";"Panasonic";"ERJ-2GE0R00X";"";"DNP";"";"";"";
-"1";"0.0pF";"RF-CRFMD";"RFMD0402";"C25";"RF capacitor pads for FSL reference design";"";"Johanson";"500R07S0R2BV4T";"";"DNP";"";"";"";
-"4";"0.1uF";"RF-C0402";"C0402";"C5, C15, C16, C19";"RF capacitor pads for FSL reference design";"";"Murata";"GRM155R71C104KA88D";"";"";"";"";"";
-"2";"0.33uF";"RF-C0402";"C0402";"C8, C12";"RF capacitor pads for FSL reference design";"";"Murata";"GRM155R61A334KE15D";"";"";"";"";"";
-"1";"0.5pF";"RF-CRFMD";"RFMD0402";"C24";"RF capacitor pads for FSL reference design";"";"";"";"";"DNP";"";"";"";
-"1";"0pF";"RF-CRFMD";"RFMD0402";"C27";"RF capacitor pads for FSL reference design";"";"";"";"";"DNP";"";"";"";
-"1";"1.0pF";"RF-CRFMD";"RFMD0402";"C26";"RF capacitor pads for FSL reference design";"";"";"";"";"DNP";"";"";"";
-"1";"1.2nH";"RF-L";"RFMD0402";"L4";"RF inductor pads for FSL reference design";"";"Murata";" LQP15MN2N2B02D";"";"DNP";"";"";"";
-"1";"1.2pF";"RF-C";"RF-L0201";"C20";"RF capacitor pads for FSL reference design";"";"TDK";"C0603C0G1E1R2B030BF";"";"";"";"";"";
-"1";"1.5nH";"RF-L";"RFMD0402";"L5";"RF inductor pads for FSL reference design";"";"Panasonic";"ERJ-2GE0R00X";"";"DNP";"";"";"";
-"4";"1000pF";"RF-C0402";"C0402";"C6, C11, C14, C17";"RF capacitor pads for FSL reference design";"";"Murata";"GRM155R71H102KA01D";"";"";"";"";"";
-"1";"100Ohm Ferrite";"RF-L";"RFMD0402";"L3";"RF inductor pads for FSL reference design";"";"Murata";"BLM15AG100SN1D";"";"";"";"";"";
-"1";"10K";"RF-R0402";"RF-R0402";"R10";"RF resistor pads for FSL reference design";"";"Panasonic";"ERJ-2RKF1002X";"";"";"";"";"";
-"2";"10k";"RF-R0402";"RF-R0402";"R11, R12";"RF resistor pads for FSL reference design";"";"Panasonic";"ERJ-2RKF1002X";"";"";"";"";"";
-"2";"12pF";"RF-C0402";"C0402";"C3, C4";"RF capacitor pads for FSL reference design";"";"Murata";"GRM1555C1H120JA01D";"";"";"";"";"";
-"1";"1M";"RF-R0402";"RF-R0402";"R1";"RF resistor pads for FSL reference design";"";"Panasonic";"ERJ-2GEJ105X";"";"";"";"";"";
-"2";"1nH";"RF-L0201";"RF-L0201";"L1, L2";"RF inductor pads for FSL reference design";"";"Murata";"LQP03TN1N0B02";"";"";"";"";"";
-"1";"1uF";"RF-C";"RF-L0201";"C22";"RF capacitor pads for FSL reference design";"";"TDK";"C0603X5R0J105M030BC";"";"";"";"";"";
-"1";"25AA080SN";"25AA080SN";"SO-08";"IC1";"Serial EEPROM 4K/ 8K , SPI bus";"MICROCHIP";"Microchip";"25AA640A-I/SN";"25AA640A";"";"";"";"";
-"1";"32KHZ";"32KHZ";"32KHZSMD";"X1";"32Khz Crystal";"";"EPSON";"FC-135 32.7680KA-A3";"";"";"";"";"";
-"1";"32MHZ";"32MHZ";"32MHZSMD";"X2";"32Mhz crystal for KW2 radio";"";"NDK";"EXS00A-CS02368";"";"";"";"";"";
-"1";"33pF";"RF-C0402";"C0402";"C9";"RF capacitor pads for FSL reference design";"";"Murata";"GRM1555C1H330JA01D";"";"";"";"";"";
-"1";"5.1pF";"RF-C";"RF-L0201";"C23";"RF capacitor pads for FSL reference design";"";"TDK";"C0603C0G1E5R1C030BG";"";"";"";"";"";
-"1";"51k";"RF-RRFMD";"RFMD0402";"R6";"RF resistor pads for FSL reference design";"";"Panasonic";"ERJ-2GEJ513X";"";"";"";"";"";
-"4";"5pF";"RF-C0402";"C0402";"C7, C10, C13, C18";"RF capacitor pads for FSL reference design";"";"Murata";"GRM1555C1H5R0BA01D";"";"";"";"";"";
-"4";"8pF";"RF-CRFMD";"RFMD0402";"C21, C28, C29, C30";"RF capacitor pads for FSL reference design";"";"Murata";"GJM1555C1H8R0CB01D";"";"";"";"";"";
-"2";"9pF";"RF-C0402";"C0402";"C1, C2";"RF capacitor pads for FSL reference design";"";"Murata";"GRM1555C1H9R0DA01D";"";"";"";"";"";
-"1";"CODESHELF-LOGOSMALL";"CODESHELF-LOGOSMALL";"CODESHELF-LOGO-SMALL";"U$1";"";"";"";"";"";"";"";"";"";
-"1";"DF12_M";"DF12_M";"DF12_M";"J1";"Hirose DF12 Male Connector";"";"Hirose";"DF12(3.0)-40DS-0.5V(86)";"";"";"";"";"";
-"1";"MKW21D";"MKW21D";"LGA63";"U1";"Freescale's new Kinetis KW20 wireless MCUs expands on the successful Kinetis MCU family based on the ARM® Cortex?-M4 CPU core.";"";"Freescale";"MKW21D256VHA5";"";"";"";"";"";
-"24";"PTR1TP15R";"PTR1TP15R";"TP15R";"RFI1, RFI2, RFI3, RFI4, RFI5, RFI6, TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, TP13, TP14, TP15, TP16, TP17, TP18";"TEST PIN";"";"";"";"";"DNP";"";"";"";
-"1";"RF6555";"RF6555";"RF6555";"U3";"RF Front End (PA / LNA)";"";"RFMD";"RF6555";"";"";"";"";"";
+Qty,Value,Device,Package,Parts,Description,MFGN,MFGP,NOTES
+2,0,RF-R,RF-L0201,"R4, R5",RF resistor pads for FSL reference design,Panasonic,ERJ-1GN0R00C,
+3,0,RF-RRFMD,RFMD0402,"R7, R8, R9",RF resistor pads for FSL reference design,,,DNP
+2,0,RF-RRFMD,RFMD0402,"R2, R3",RF resistor pads for FSL reference design,Panasonic,ERJ-2GE0R00X,
+4,0.1uF,RF-C0402,C0402,"C5, C15, C16, C19",RF capacitor pads for FSL reference design,Murata,GRM155R71C104KA88D,
+1,0.2pF,RF-CRFMD,RFMD0402,C25,RF capacitor pads for FSL reference design,,,DNP
+2,0.33uF,RF-C0402,C0402,"C8, C12",RF capacitor pads for FSL reference design,Murata,GRM155R61A334KE15D,
+1,0.5pF,RF-CRFMD,RFMD0402,C24,RF capacitor pads for FSL reference design,,,DNP
+1,0pF,RF-CRFMD,RFMD0402,C27,RF capacitor pads for FSL reference design,,,DNP
+1,1.0pF,RF-CRFMD,RFMD0402,C26,RF capacitor pads for FSL reference design,,,DNP
+1,1.2pF,RF-C,RF-L0201,C20,RF capacitor pads for FSL reference design,TDK,C0603C0G1E1R2B030BF,
+1,1.5nH,RF-L,RFMD0402,L5,RF inductor pads for FSL reference design,,,DNP
+4,1000pF,RF-C0402,C0402,"C6, C11, C14, C17",RF capacitor pads for FSL reference design,Murata,GRM155R71H102KA01D,
+1,100Ohm Ferrite,RF-L,RFMD0402,L3,RF inductor pads for FSL reference design,Murata,BLM15AG100SN1D,
+3,10k,RF-R0402,RF-R0402,"R10, R11, R12",RF resistor pads for FSL reference design,Panasonic,ERJ-2RKF1002X,
+2,12pF,RF-C0402,C0402,"C3, C4",RF capacitor pads for FSL reference design,Murata,GRM1555C1H120JA01D,
+1,1M,RF-R0402,RF-R0402,R1,RF resistor pads for FSL reference design,Panasonic,ERJ-2GEJ105X,
+2,1nH,RF-L0201,RF-L0201,"L1, L2",RF inductor pads for FSL reference design,Murata,LQP03TN1N0B02,
+1,1uF,RF-C,RF-L0201,C22,RF capacitor pads for FSL reference design,TDK,C0603X5R0J105M030BC,
+1,2.2nH,RF-L,RFMD0402,L4,RF inductor pads for FSL reference design,,,DNP
+1,25AA080SN,25AA080SN,SO-08,IC1,"Serial EEPROM 4K/ 8K , SPI bus",Microchip,25AA640A-I/SN,
+1,3.3V,MCP1804T-3302I,SOT223,U4,VOLTAGE REGULATOR,,,DNP
+1,32.768kHz,32KHZ,32KHZSMD,X1,32Khz Crystal,EPSON,FC-135 32.7680KA-A3,
+1,32MHZ,32MHZ,32MHZSMD,X2,32Mhz crystal for KW2 radio,NDK,EXS00A-CS02368,
+1,33pF,RF-C0402,C0402,C9,RF capacitor pads for FSL reference design,Murata,GRM1555C1H330JA01D,
+1,5.1pF,RF-C,RF-L0201,C23,RF capacitor pads for FSL reference design,TDK,C0603C0G1E5R1C030BG,
+2,50Ohm,ANTENNA_U.FL,U.FL,"A1, A2",U.FL Antenna Connector,Hirose,N.FL-R-SMT-1(10),
+1,51k,RF-RRFMD,RFMD0402,R6,RF resistor pads for FSL reference design,Panasonic,ERJ-2GEJ513X,
+4,5pF,RF-C0402,C0402,"C7, C10, C13, C18",RF capacitor pads for FSL reference design,Murata,GRM1555C1H5R0BA01D,
+4,8pF,RF-CRFMD,RFMD0402,"C21, C28, C29, C30",RF capacitor pads for FSL reference design,Murata,GJM1555C1H8R0CB01D,
+2,9pF,RF-C0402,C0402,"C1, C2",RF capacitor pads for FSL reference design,Murata,GRM1555C1H9R0DA01D,
+1,CODESHELF-LOGOSMALL,CODESHELF-LOGOSMALL,CODESHELF-LOGO-SMALL,U$1,,,,
+1,DF12_M,DF12_M,DF12_M,J1,Hirose DF12 Male Connector,Hirose,DF12(3.0)-40DS-0.5V(86),
+1,MKW21D,MKW21D,LGA63,U1,Freescale's new Kinetis KW20 wireless MCUs expands on the successful Kinetis MCU family based on the ARM® Cortex?-M4 CPU core.,Freescale,MKW21D256VHA5,
+18,PTR1TP15R,PTR1TP15R,TP15R,"TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, TP13, TP14, TP15, TP16, TP17, TP18",TEST PIN,,,DNP
+1,RF6555,RF6555,RF6555,U3,RF Front End (PA / LNA),RFMD,RF6555,
