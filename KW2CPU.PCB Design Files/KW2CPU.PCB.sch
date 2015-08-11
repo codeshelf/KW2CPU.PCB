@@ -11383,6 +11383,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="-1.27" y="2.54" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="U.FL">
@@ -11394,6 +11409,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pin name="GND@1" x="-2.54" y="-7.62" visible="off" length="short" direction="pas"/>
 <text x="-2.54" y="3.302" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11414,6 +11432,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFGN" value="Hirose"/>
 <attribute name="MFGP" value="N.FL-R-SMT-1(10)"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -11747,6 +11779,24 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFGP" value="ERJ-2GE0R00X"/>
 </part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="U$3" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="U$4" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="U$5" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="U$6" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="U$7" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -12087,6 +12137,24 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="321.945" y="64.77" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND11" gate="1" x="-91.44" y="25.4"/>
+<instance part="U$2" gate="G$1" x="132.08" y="-76.2">
+<attribute name="NOTES" x="132.08" y="-76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$3" gate="G$1" x="142.24" y="-76.2">
+<attribute name="NOTES" x="142.24" y="-76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$4" gate="G$1" x="152.4" y="-76.2">
+<attribute name="NOTES" x="152.4" y="-76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$5" gate="G$1" x="132.08" y="-93.98">
+<attribute name="NOTES" x="132.08" y="-93.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$6" gate="G$1" x="142.24" y="-93.98">
+<attribute name="NOTES" x="142.24" y="-93.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$7" gate="G$1" x="152.4" y="-93.98">
+<attribute name="NOTES" x="152.4" y="-93.98" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12360,7 +12428,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="203.2" y1="-15.24" x2="66.04" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="RFN_MATCH" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="C20" gate="G$1" pin="2"/>
@@ -12372,7 +12440,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="243.84" y="-7.62"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="RFP_MATCH" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="-25.4" x2="261.62" y2="-25.4" width="0.1524" layer="91"/>
@@ -13185,14 +13253,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="-91.44" y="30.48"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="!WP" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="!WP"/>
 <wire x1="-160.02" y1="-68.58" x2="-160.02" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="!HOLD" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="-175.26" y1="-68.58" x2="-175.26" y2="-86.36" width="0.1524" layer="91"/>
@@ -13225,7 +13293,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="241.3" y1="111.76" x2="241.3" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="C_LNA" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="R7" gate="G$1" pin="1"/>

@@ -1,9 +1,10 @@
 KW2CPU.PCB.v1.3
-8/7/2015
+8/11/2015
 
 - Material: FR408
 - Thickness: 0.062"
 - Copper weight 0.5oz base plus 1 oz plating
+- Finish: ENIG
 - Inner layers POSITIVE Gerber files
 - All vias tented
 - Solder mask: BLACK
